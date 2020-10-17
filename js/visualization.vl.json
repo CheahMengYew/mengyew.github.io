@@ -1,6 +1,6 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
-  "title": "COVID-19 Active Cases (2020)",
+  "title": "Kg of Beef per person(2020)",
   "width": 800,
   "height": 600,
   "data": {
@@ -19,16 +19,24 @@
       }
     }
   ],
-  "projection": {"type": "equirectangular"},
+  "projection": {"type": "equalEarth"},
   "mark": {"type": "geoshape"},
   "encoding": {
-    "color": {
-      "field": "volume",
-      "type": "quantitative"
+    "color": {"field": "volume", "type": "quantitative" ,
+             "scale": {
+                  "type": "threshold",
+                  "domain": [0, 10, 20],
+                  "range": ["#fdbe85", "#fd8d3c", "#e6550d", "#a63603"]
+ }
+
     },
     "tooltip": [
-      {"field": "properties.SU_A3", "type": "nominal", "title": "Country"},
-      {"field": "volume", "type": "quantitative" , "title":"Kg of meat Per person"}
+      {"field": "properties.NAME", "type": "nominal", "title": "Country"},
+      {
+        "field": "volume",
+        "type": "quantitative",
+        "title": "Kg of meat Per person"
+      }
     ]
   }
 }
