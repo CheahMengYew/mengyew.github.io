@@ -25,8 +25,8 @@
     "color": {"field": "volume", "type": "quantitative" ,
              "scale": {
                   "type": "threshold",
-                  "domain": [0, 10, 20],
-                  "range": ["#fdbe85", "#fd8d3c", "#e6550d", "#a63603"]
+                  "domain": [1, 10, 20,30,40],
+                  "range": ["#ffffd4", "#fed98e", "#fe9929", "#cc4c02" , "#993404"]
  }
 
     },
