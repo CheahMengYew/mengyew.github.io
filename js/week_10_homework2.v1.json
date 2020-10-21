@@ -1,0 +1,26 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
+    "data": {"url": "https://raw.githubusercontent.com/CheahMengYew/visualization/main/data/Book1.csv"},
+    "mark": {"type": "bar"},
+    "encoding": {
+          "x": {
+        "timeUnit": "year",
+        "field": "Year",
+        "type": "ordinal",
+        "title": "year"
+      },
+         "y": {
+        "aggregate": "sum",
+        "field" : "Quantity",
+        "type": "quantitative"
+      },
+      "color": {
+        "field": "types",
+        "type": "nominal",
+        "scale": {
+          "domain": ["Cattle", "Goats", "Turkey", "Pigs" , "Sheeps"],
+          "range": ["#e7ba52", "#c7c7c7", "#aec7e8", "#1f77b4", "#9467bd" ]
+        }
+      }
+    }
+  }
