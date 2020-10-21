@@ -1,4 +1,4 @@
-Entity,Code,Year,Cattle (cattle slaughtered),Goats (goats slaughtered),Chicken (chicken slaughtered),Turkey (turkeys slaughtered),Pigs (pigs slaughtered),Sheep (sheeps slaughtered)
+Entity,Code,Year,Cattle,Goats ,Chicken ,Turkey ,Pigs ,Sheep 
 Afghanistan,AFG,1961,360000,940000,7000000,,,4336000
 Afghanistan,AFG,1962,384000,875000,7500000,,,4355000
 Afghanistan,AFG,1963,396000,810000,7700000,,,4673000
