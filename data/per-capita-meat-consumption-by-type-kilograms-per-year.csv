@@ -1,4 +1,4 @@
-Entity,Code,Year,Mutton and Goat (kilograms per year),Other meats (kilograms per person),Poultry (kilograms per year),Pigmeat (kilograms per year),Beef and bufallo (kilograms per year)
+Entity,Code,Year,Mutton,Other,Poultry,Pigmeat,Beef
 Afghanistan,AFG,1961,8.18,0.85,0.63,,4.8
 Afghanistan,AFG,1962,7.92,0.88,0.66,,5.01
 Afghanistan,AFG,1963,8.09,1.07,0.66,,5.06
