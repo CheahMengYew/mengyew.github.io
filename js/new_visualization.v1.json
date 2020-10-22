@@ -1,0 +1,58 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
+    "title": "Food Security in each region",
+    "width": 500,
+    "height": 400,
+    "data": {
+      "url": "https://raw.githubusercontent.com/CheahMengYew/visualization/main/data/per-capita-meat-consumption-by-type-kilograms-per-year.csv",
+    "format": {
+      "type": "csv",
+      "parse": {"Pigmeat": "number", "Mutton": "number", "Other": "number", "Poultry": "number", "Beef": "number"}
+    }
+    },
+    
+    "params": [
+        {
+            "name" : "year" , 
+            "value" : 2000 , 
+             "bind" : {
+                 "input": "range" ,
+                 "min": 2000 , 
+                 "max" : 2013,
+                 "step" : 1 ,
+                 "name" : "Year : "
+             }
+        }
+    ],
+    "transform": [
+                  {"filter" : " datum.Entity == 'Asia' || datum.Entity == 'Europe' || datum.Entity == 'South America' || datum.Entity == 'Northern America' || datum.Entity == 'Oceania' || datum.Entity == 'Africa'" },
+                  {"calculate" : "datum.Beef+datum.Mutton+datum.Pigmeat+datum.Poultry+datum.Other" , "as": "total"}],
+    "mark" : "circle" ,
+    "encoding": {
+        "x" : {
+            "timeUnit": "year",
+            "field" : "Year" , 
+            "type" : "ordinal" , 
+            "title" : "KG of Pork per capita" 
+        } ,
+        "y" : {
+            "field" : "total"  , 
+            "type" : "quantitative" , 
+            "title" : "kg of beef prt capita"
+        },
+        "size" : {
+            "value": 100
+        },
+        "color": {
+            "field": "Entity",
+            "type": "nominal"
+        } , 
+        "tooltip" : [
+            {"field" : "total" , "type": "quantitative"},
+            {"field" : "Entity" , "type": "nominal"},
+            {"field" : "Mutton" , "title" : "kg Pork per capita"},
+            {"field" : "Beef" , "title" : "kg beef per capita" }
+        ]
+    } 
+
+}
