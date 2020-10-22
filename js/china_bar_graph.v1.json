@@ -1,7 +1,7 @@
 {
     "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
-    "title": "Food Security in Australia",
-    "data": {"url": "https://raw.githubusercontent.com/CheahMengYew/visualization/main/data/Australia(2010-2018).csv"},
+    "title": "Food Security in China",
+    "data": {"url": "https://raw.githubusercontent.com/CheahMengYew/visualization/main/data/China(2010-2018).csv"},
     "mark": {"type": "bar"},
     "encoding": {
           "x": {
@@ -10,18 +10,18 @@
         "type": "ordinal",
         "title": "year"
       },
-         "y": {
+        "y": {
         "aggregate": "sum",
-        "field" : "Qtn",
+        "field" : "Value",
         "type": "quantitative" , 
-        "title": "total head "
+        "title": "Tonnes "
       },
       "color": {
-        "field": "Type",
+        "field": "Item",
         "type": "nominal",
         "scale": {
-          "domain": ["Cattle", "Goats", "Turkey", "Pigs" , "Sheep"],
-          "range": ["#e41a1c", "#377eb8", "#4daf4a", "#984ea3", "#ff7f00" ]
+          "domain": ["cattle", "chicken", "pig", "sheep"],
+          "range": ["#e41a1c", "#377eb8", "#4daf4a", "#984ea3" ]
         }
       }
     }
