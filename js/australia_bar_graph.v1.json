@@ -1,5 +1,7 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
+  "width": 500,
+  "height": 400,
   "title": "Food Security in Australia",
   "data": {"url": "https://raw.githubusercontent.com/CheahMengYew/visualization/main/data/Australia(2010-2018).csv"},
   "mark": {"type": "bar"},
