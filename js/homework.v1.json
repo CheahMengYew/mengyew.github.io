@@ -19,32 +19,32 @@
             }
         }
         ,
-        {
-            "name" : "Continent_selection" , 
-            "bind" : {
-                "input": "select",
-                "options" : [
-                    null,
-                    "North America",
-                    "South America",
-                    "Europe" ,
-                    "Africa",
-                    "Asia" , 
-                    "Oceania"
-                ],
-                "labels" : [
-                    "Show All" ,
-                    "North America" , 
-                    "South America" , 
-                    "Europe" ,
-                    "Africa" , 
-                    "Asia" , 
-                    "Oceania"
-                ], 
+            {
+                "name" : "Continent_selection" , 
+                "bind" : {
+                    "input": "select",
+                    "options" : [
+                        null,
+                        "North America",
+                        "South America",
+                        "Europe" ,
+                        "Africa",
+                        "Asia" , 
+                        "Oceania"
+                    ],
+                    "labels" : [
+                        "Show All" ,
+                        "North America" , 
+                        "South America" , 
+                        "Europe" ,
+                        "Africa" , 
+                        "Asia" , 
+                        "Oceania"
+                    ], 
 
-                "name": "Continent Selection"
+                    "name": "Continent Selection"
+                }
             }
-        }
     ],
     "transform": [{"filter":"datum.Active > 0 "},
                   {"filter":"datum.Deaths > 0 "}, 

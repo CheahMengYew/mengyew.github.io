@@ -1,0 +1,71 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
+"title": "Food Security in region",
+"width": 500,
+"height": 400,
+"data": { "url": "https://raw.githubusercontent.com/CheahMengYew/visualization/main/data/TonnesOfMeatPerRegion.csv" },
+  "params": [ {
+        "name" : "type_select" , 
+        "bind" : {
+            "input": "select",
+            "options" : [
+                null,
+                "Meat indigenous, cattle",
+                "Meat indigenous, chicken",
+                "Meat indigenous, goat" ,
+                "Meat indigenous, pig",
+                "Meat indigenous, sheep" 
+            ],
+            "labels" : [
+                "Show All",
+                "Cattle" , 
+                "Chicken" , 
+                "Goat" ,
+                "Pig" , 
+                "Sheep"
+            ], 
+
+            "name": "Select type"
+        }
+    }],
+"transform": [
+{"filter" : "type_select == null || datum.Item == type_select"},
+{
+  "aggregate": [{
+   "op": "sum",
+   "field": "Value",
+   "as": "mean_acc"
+  }],
+  "groupby": ["Area" , "Year"]
+}
+],
+"selection": {
+        "continent_highlight": {
+        "type": "multi",
+        "fields": ["Area"],
+        "bind": "legend"
+}
+},
+"mark": "circle",
+"encoding": {
+"x" : {
+        "timeUnit": "year",
+        "field" : "Year" , 
+        "type" : "ordinal" , 
+        "title" : "year" 
+    } ,
+"y": { 
+        "field": "mean_acc", 
+         "type": "quantitative",
+         "title" : "tonnes of meat produced" },
+"color":{"field" : "Area" , "type": "nominal"},
+"opacity": {
+          "condition": {"selection":"continent_highlight", "value": 0.8},
+          "value": 0.1
+  },
+"tooltip" : [
+        {"field" : "Area" , "type": "nominal"},
+        {"field" : "mean_acc" , "type": "quantitative"}
+    ]
+}
+}
