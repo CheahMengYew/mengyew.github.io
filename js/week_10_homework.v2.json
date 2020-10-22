@@ -1,0 +1,28 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
+    "title": "Food Security in Australia",
+    "data": {"url": "https://raw.githubusercontent.com/CheahMengYew/visualization/main/data/Australia(2010-2018).csv"},
+    "mark": {"type": "bar"},
+    "encoding": {
+          "x": {
+        "timeUnit": "year",
+        "field": "Year",
+        "type": "ordinal",
+        "title": "year"
+      },
+         "y": {
+        "aggregate": "sum",
+        "field" : "Qtn",
+        "type": "quantitative" , 
+        "title": "total head "
+      },
+      "color": {
+        "field": "Type",
+        "type": "nominal",
+        "scale": {
+          "domain": ["Cattle", "Goats", "Turkey", "Pigs" , "Sheep"],
+          "range": ["#e41a1c", "#377eb8", "#4daf4a", "#984ea3", "#ff7f00" ]
+        }
+      }
+    }
+  }
