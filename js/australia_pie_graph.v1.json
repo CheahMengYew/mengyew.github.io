@@ -1,0 +1,31 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
+    "title": "Top 3 fruit produce from Australia",
+    "description": "A simple radial chart with embedded data.",
+    "data": {
+      "url" : "https://raw.githubusercontent.com/CheahMengYew/visualization/main/data/Australia_fruits(2018).csv"
+    },
+    "layer": [{
+      "mark": {"type": "arc", "innerRadius": 10, "stroke": "#fff"}
+    },{
+      "mark": {"type": "text",
+               "radiusOffset": 22},
+      "encoding": {
+        "text": {"field": "Item", "type": "nominal"},
+        "opacity":{
+            "condition": {
+                          "test": "datum['Item'] == 'Grapes' || datum['Item'] == 'Bananas' ||  datum['Item'] == 'Oranges' ",
+                          "value": 1
+                        },
+                        "value" : 0 
+                  }
+      }
+  
+    }],
+    "encoding": {
+      "theta": {"field": "Value", "type": "quantitative","stack": true},
+      "radius": {"field": "Value", "scale": {"type": "sqrt", "zero": true, "rangeMin": 100}},
+      "color": {"field": "Value", "type": "nominal", "legend": null}
+    },
+    "view": {"stroke": null} 
+  }
