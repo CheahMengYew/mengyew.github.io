@@ -1,0 +1,121 @@
+﻿Area,Element,Item,Year,Value
+Africa,Production,"Meat indigenous, cattle",2010,5374932
+Africa,Production,"Meat indigenous, cattle",2011,5408191
+Africa,Production,"Meat indigenous, cattle",2012,5100792
+Africa,Production,"Meat indigenous, cattle",2013,5240746
+Africa,Production,"Meat indigenous, chicken",2010,4469488
+Africa,Production,"Meat indigenous, chicken",2011,4498859
+Africa,Production,"Meat indigenous, chicken",2012,4510407
+Africa,Production,"Meat indigenous, chicken",2013,4646702
+Africa,Production,"Meat indigenous, goat",2010,1258022
+Africa,Production,"Meat indigenous, goat",2011,1294190
+Africa,Production,"Meat indigenous, goat",2012,1150921
+Africa,Production,"Meat indigenous, goat",2013,1168717
+Africa,Production,"Meat indigenous, pig",2010,1136933
+Africa,Production,"Meat indigenous, pig",2011,1182810
+Africa,Production,"Meat indigenous, pig",2012,1250709
+Africa,Production,"Meat indigenous, pig",2013,1299068
+Africa,Production,"Meat indigenous, sheep",2010,1634200
+Africa,Production,"Meat indigenous, sheep",2011,1708148
+Africa,Production,"Meat indigenous, sheep",2012,1374648
+Africa,Production,"Meat indigenous, sheep",2013,1377642
+Northern America,Production,"Meat indigenous, cattle",2010,12820909
+Northern America,Production,"Meat indigenous, cattle",2011,12656329
+Northern America,Production,"Meat indigenous, cattle",2012,11846630
+Northern America,Production,"Meat indigenous, cattle",2013,11896010
+Northern America,Production,"Meat indigenous, chicken",2010,17945715
+Northern America,Production,"Meat indigenous, chicken",2011,18083665
+Northern America,Production,"Meat indigenous, chicken",2012,18162901
+Northern America,Production,"Meat indigenous, chicken",2013,18538522
+Northern America,Production,"Meat indigenous, goat",2010,2
+Northern America,Production,"Meat indigenous, goat",2011,2
+Northern America,Production,"Meat indigenous, goat",2012,2
+Northern America,Production,"Meat indigenous, goat",2013,2
+Northern America,Production,"Meat indigenous, pig",2010,12132470
+Northern America,Production,"Meat indigenous, pig",2011,12327690
+Northern America,Production,"Meat indigenous, pig",2012,12464092
+Northern America,Production,"Meat indigenous, pig",2013,12403702
+Northern America,Production,"Meat indigenous, sheep",2010,96577
+Northern America,Production,"Meat indigenous, sheep",2011,87604
+Northern America,Production,"Meat indigenous, sheep",2012,92039
+Northern America,Production,"Meat indigenous, sheep",2013,86941
+South America,Production,"Meat indigenous, cattle",2010,14805910
+South America,Production,"Meat indigenous, cattle",2011,14565873
+South America,Production,"Meat indigenous, cattle",2012,14944178
+South America,Production,"Meat indigenous, cattle",2013,15704808
+South America,Production,"Meat indigenous, chicken",2010,16841101
+South America,Production,"Meat indigenous, chicken",2011,17844524
+South America,Production,"Meat indigenous, chicken",2012,18160095
+South America,Production,"Meat indigenous, chicken",2013,19361859
+South America,Production,"Meat indigenous, goat",2010,71606
+South America,Production,"Meat indigenous, goat",2011,72062
+South America,Production,"Meat indigenous, goat",2012,73037
+South America,Production,"Meat indigenous, goat",2013,73499
+South America,Production,"Meat indigenous, pig",2010,4938661
+South America,Production,"Meat indigenous, pig",2011,5083702
+South America,Production,"Meat indigenous, pig",2012,5318506
+South America,Production,"Meat indigenous, pig",2013,5368924
+South America,Production,"Meat indigenous, sheep",2010,234603
+South America,Production,"Meat indigenous, sheep",2011,242585
+South America,Production,"Meat indigenous, sheep",2012,244644
+South America,Production,"Meat indigenous, sheep",2013,243745
+Asia,Production,"Meat indigenous, cattle",2010,13131378
+Asia,Production,"Meat indigenous, cattle",2011,13288912
+Asia,Production,"Meat indigenous, cattle",2012,13666339
+Asia,Production,"Meat indigenous, cattle",2013,13962937
+Asia,Production,"Meat indigenous, chicken",2010,29162987
+Asia,Production,"Meat indigenous, chicken",2011,30286576
+Asia,Production,"Meat indigenous, chicken",2012,31552195
+Asia,Production,"Meat indigenous, chicken",2013,32209580
+Asia,Production,"Meat indigenous, goat",2010,3592673
+Asia,Production,"Meat indigenous, goat",2011,3590430
+Asia,Production,"Meat indigenous, goat",2012,3710956
+Asia,Production,"Meat indigenous, goat",2013,3774536
+Asia,Production,"Meat indigenous, pig",2010,60146621
+Asia,Production,"Meat indigenous, pig",2011,59788377
+Asia,Production,"Meat indigenous, pig",2012,62880652
+Asia,Production,"Meat indigenous, pig",2013,64456569
+Asia,Production,"Meat indigenous, sheep",2010,3930342
+Asia,Production,"Meat indigenous, sheep",2011,3962918
+Asia,Production,"Meat indigenous, sheep",2012,4022138
+Asia,Production,"Meat indigenous, sheep",2013,4107429
+Europe,Production,"Meat indigenous, cattle",2010,11232457
+Europe,Production,"Meat indigenous, cattle",2011,10982098
+Europe,Production,"Meat indigenous, cattle",2012,10592966
+Europe,Production,"Meat indigenous, cattle",2013,10424825
+Europe,Production,"Meat indigenous, chicken",2010,13872902
+Europe,Production,"Meat indigenous, chicken",2011,14574993
+Europe,Production,"Meat indigenous, chicken",2012,15513319
+Europe,Production,"Meat indigenous, chicken",2013,16072299
+Europe,Production,"Meat indigenous, goat",2010,130839
+Europe,Production,"Meat indigenous, goat",2011,126423
+Europe,Production,"Meat indigenous, goat",2012,122825
+Europe,Production,"Meat indigenous, goat",2013,113335
+Europe,Production,"Meat indigenous, pig",2010,26939144
+Europe,Production,"Meat indigenous, pig",2011,26803633
+Europe,Production,"Meat indigenous, pig",2012,26476377
+Europe,Production,"Meat indigenous, pig",2013,26503812
+Europe,Production,"Meat indigenous, sheep",2010,1170324
+Europe,Production,"Meat indigenous, sheep",2011,1201659
+Europe,Production,"Meat indigenous, sheep",2012,1170986
+Europe,Production,"Meat indigenous, sheep",2013,1171358
+Oceania,Production,"Meat indigenous, cattle",2010,2990846
+Oceania,Production,"Meat indigenous, cattle",2011,2941654
+Oceania,Production,"Meat indigenous, cattle",2012,2924962
+Oceania,Production,"Meat indigenous, cattle",2013,3073341
+Oceania,Production,"Meat indigenous, chicken",2010,1052126
+Oceania,Production,"Meat indigenous, chicken",2011,1209629
+Oceania,Production,"Meat indigenous, chicken",2012,1237318
+Oceania,Production,"Meat indigenous, chicken",2013,1259268
+Oceania,Production,"Meat indigenous, goat",2010,29958
+Oceania,Production,"Meat indigenous, goat",2011,28576
+Oceania,Production,"Meat indigenous, goat",2012,28761
+Oceania,Production,"Meat indigenous, goat",2013,28887
+Oceania,Production,"Meat indigenous, pig",2010,478815
+Oceania,Production,"Meat indigenous, pig",2011,491243
+Oceania,Production,"Meat indigenous, pig",2012,498912
+Oceania,Production,"Meat indigenous, pig",2013,498323
+Oceania,Production,"Meat indigenous, sheep",2010,1088923
+Oceania,Production,"Meat indigenous, sheep",2011,1031602
+Oceania,Production,"Meat indigenous, sheep",2012,1053760
+Oceania,Production,"Meat indigenous, sheep",2013,1152804
