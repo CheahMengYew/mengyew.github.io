@@ -1,8 +1,8 @@
-﻿Item,Year,Value
-Sugar cane,2018,1217298
-Cabbages and other brassicas,2018,1379545
-Potatoes,2018,2261945
-"Vegetables, fresh nes",2018,2720590
-Sugar beet,2018,3611000
-"Rice, paddy",2018,16215743
-Others,2018,11401682
+﻿Value,Year,Item
+1217298,2018,Sugar cane
+1379545,2018,Cabbages and other brassicas
+2261945,2018,Potatoes
+2720590,2018,"Vegetables, fresh nes"
+3611000,2018,Sugar beet
+16215743,2018,"Rice, paddy"
+11401682,2018,Others
