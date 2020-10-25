@@ -16,7 +16,7 @@
         "text": {"field": "Item", "type": "nominal"},
         "opacity":{
             "condition": {
-                          "test": "datum['Item'] == 'Grapes' || datum['Item'] == 'Bananas' ||  datum['Item'] == 'Oranges' ",
+                          "test": "datum['Item'] == 'Grapes' || datum['Item'] == 'Bananas' ||  datum['Item'] == 'Oranges' || datum['Item'] == 'Others'",
                           "value": 1
                         },
                         "value" : 0 
