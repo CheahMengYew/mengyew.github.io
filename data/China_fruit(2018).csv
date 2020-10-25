@@ -1,37 +1,4 @@
 ﻿Item,Year,Value
-Peppermint,2018,0
-"Cashew nuts, with shell",2018,223
-Fibre crops nes,2018,371
-Vanilla,2018,459
-Cloves,2018,1322
-Olives,2018,2630
-Hops,2018,8407
-String beans,2018,10789
-Hempseed,2018,11822
-Hemp tow waste,2018,12623
-Sisal,2018,12989
-Flax fibre and tow,2018,13416
-Figs,2018,13914
-Chick peas,2018,15652
-"Cow peas, dry",2018,15652
-Mustard seed,2018,18582
-"Bastfibres, other",2018,21510
-"Hazelnuts, with shell",2018,24790
-Castor oil seed,2018,27000
-Melonseed,2018,30112
-Jute,2018,30497
-Safflower seed,2018,32950
-Pepper (piper spp.),2018,36345
-Cherries,2018,37577
-Roots and tubers nes,2018,49676
-"Almonds, with shell",2018,49879
-"Anise, badian, fennel, coriander",2018,56395
-Berries nes,2018,62212
-Pistachios,2018,74828
-Apricots,2018,76193
-Cinnamon (cannella),2018,81545
-Cereals nes,2018,88991
-Artichokes,2018,90397
 "Coffee, green",2018,100332
 Areca nuts,2018,102918
 Ramie,2018,104125
@@ -57,6 +24,7 @@ Oil palm fruit,2018,672760
 Triticale,2018,773536
 "Rubber, natural",2018,824000
 Oats,2018,1004592
+Others ,2018,1009748
 Rye,2018,1044776
 Tallowtree seed,2018,1048526
 "Onions, shallots, green",2018,1063620
@@ -124,6 +92,3 @@ Wheat,2018,131447224
 "Vegetables, fresh nes",2018,174861648
 "Rice, paddy",2018,214078796
 Maize,2018,257348659
-Blueberries,2018,
-"Cocoa, beans",2018,
-Karite nuts (sheanuts),2018,
