@@ -6,29 +6,79 @@
   <script src="https://cdn.jsdelivr.net/npm/vega-lite@4"></script>
   <!-- Import vega-embed -->
   <script src="https://cdn.jsdelivr.net/npm/vega-embed@6"></script>
+
+  <style>
+    .btn{
+        border: none;
+          color : white;
+          padding : 14px 28px;
+          cursor : pointer;
+      }
+      .china{background-color:#f54242;}
+      
+      .china:hover{background-color:#c73636;}
+      
+      .australia{background-color:#08149c;}
+      
+      .australia:hover{background-color:#050d66;}
+      
+      .india{background-color:#089c0a;}
+      
+      .india:hover{background-color:#076b09}
+      
+      .japan{background-color:#d6d6d6}
+      
+      .japan:hover{background-color:#a6a6a6}
+     
+  </style>
 </head>
 <body>
 
 <h1>Visualization exercise</h1>
 
-  <div id="scatterplot_by_region"></div>
-  
-  <div>
-    <div id="pie_graph_australia"></div>
-    <div id="bar_graph_australia"></div>
+  <div  align="center">
+	  <button class="btn china">CHINA</button>
+    <button class="btn australia" onclick="australia()">AUSTRALIA</button>
+    <button class="btn india">INDIA</button>
+    <button class="btn japan">JAPAN</button>
   </div>
 
-<script type="text/javascript">
+  <div id="hold">
+      <div id="scatterplot_by_region"></div>
+      <div id="bar_graph_australia"></div>
+  </div>
+
+
+
+
+<script  type="text/javascript">
+
+  function australia(){
+    var newDiv = document.createElement("DIV");
+    var barGraph = document.createElement("DIV");
+    var vis2 = "https://cheahmengyew.github.io/visualization/js/australia_pie_graph.v1.json";
+    vegaEmbed('#pie_graph_australia', vis2).then(function(result) {
+    }).catch(console.error);
+
+    var vis3 = "https://cheahmengyew.github.io/visualization/js/australia_bar_graph.v1.json";
+    vegaEmbed('#bar_graph_australia', vis3).then(function(result) {
+    // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+    }).catch(console.error);
+    
+    barGraph.id = "bar_graph_australia"
+    newDiv.id = "pie_graph_australia";
+
+    document.getElementById("hold").innerHTML="";
+    document.getElementById("hold").appendChild(newDiv);
+    document.getElementById("hold").appendChild(barGraph);
+  }
+
   var vis1 = "https://cheahmengyew.github.io/visualization/js/meat_by_region.v1.json";
 
   vegaEmbed('#scatterplot_by_region', vis1).then(function(result) {
     // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
   }).catch(console.error);
-
-  var vis2 = "https://cheahmengyew.github.io/visualization/js/australia_pie_graph.v1.json";
-  vegaEmbed('#pie_graph_australia', vis2).then(function(result) {
-    // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
-  }).catch(console.error);
+  
 
   var vis3 = "https://cheahmengyew.github.io/visualization/js/australia_bar_graph.v1.json";
   vegaEmbed('#bar_graph_australia', vis3).then(function(result) {
