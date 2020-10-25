@@ -1,0 +1,33 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
+    "width": 500,
+    "height": 400,
+    "title": "Top 3 crop produce from Japan",
+    "description": "A simple radial chart with embedded data.",
+    "data": {
+      "url" : "https://raw.githubusercontent.com/CheahMengYew/visualization/main/data/japan_Crop(2018).csv"
+    },
+    "layer": [{
+      "mark": {"type": "arc", "innerRadius": 20, "stroke": "#fff"}
+    },{
+      "mark": {"type": "text",
+               "radiusOffset": 50},
+      "encoding": {
+        "text": {"field": "Item", "type": "nominal"},
+        "opacity":{
+            "condition": {
+                          "test": "datum['Item'] == 'Potatoes' ||  datum['Item'] == 'Rice, paddy' || datum['Item'] == 'Others' || datum['Item'] == 'Sugar beet' ",
+                          "value": 1
+                        },
+                        "value" : 0 
+                  }
+      }
+  
+    }],
+    "encoding": {
+      "theta": {"field": "Value", "type": "quantitative","stack": true},
+      "radius": {"field": "Value", "scale": {"type": "sqrt", "zero": true, "rangeMin": 100}},
+      "color": {"field": "Value", "type": "nominal", "legend": null}
+    },
+    "view": {"stroke": null} 
+  }
