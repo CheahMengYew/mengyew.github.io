@@ -1,31 +1,7 @@
-﻿Item,Value
-Apples,268355
-Apricots,8801
-Avocados,63486
-Bananas,373931
-Berries nes,4821
-Blueberries,5138
-Cherries,15964
-Currants,541
-Figs,75
-"Fruit, citrus nes",1538
-"Fruit, stone nes",
-"Fruit, tropical fresh nes",7647
-Grapefruit (inc. pomelos),9518
-Grapes,1663557
-Kiwi fruit,2861
-Lemons and limes,33421
-"Mangoes, mangosteens, guavas",56893
-"Melons, other (inc.cantaloupes)",224672
-Oranges,378233
-Papayas,6402
-Peaches and nectarines,82407
-Pears,103748
-Persimmons,719
-Pineapples,88660
-Plums and sloes,17837
-Quinces,
-Raspberries,707
-Strawberries,57384
-"Tangerines, mandarins, clementines, satsumas",138007
-Watermelons,181667
+﻿Item,Value,,
+"Melons, other (inc.cantaloupes)",224672,,706575
+Apples,268355,,
+Bananas,373931,,
+Oranges,378233,,
+Grapes,1663557,,
+Others,706575,,

@@ -37,7 +37,7 @@
 <h1>Visualization exercise</h1>
 
   <div  align="center">
-	  <button class="btn china">CHINA</button>
+	  <button class="btn china" onclick="china()">CHINA</button>
     <button class="btn australia" onclick="australia()">AUSTRALIA</button>
     <button class="btn india">INDIA</button>
     <button class="btn japan">JAPAN</button>
@@ -60,17 +60,24 @@
     vegaEmbed('#pie_graph_australia', vis2).then(function(result) {
     }).catch(console.error);
 
-    var vis3 = "https://cheahmengyew.github.io/visualization/js/australia_bar_graph.v1.json";
-    vegaEmbed('#bar_graph_australia', vis3).then(function(result) {
-    // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
-    }).catch(console.error);
-    
-    barGraph.id = "bar_graph_australia"
     newDiv.id = "pie_graph_australia";
 
     document.getElementById("hold").innerHTML="";
     document.getElementById("hold").appendChild(newDiv);
-    document.getElementById("hold").appendChild(barGraph);
+  }
+
+  function china(){
+    var newDiv = document.createElement("DIV");
+    var barGraph = document.createElement("DIV");
+    var vis2 = "https://cheahmengyew.github.io/visualization/js/china_pie_graph.v1.json";
+    vegaEmbed('#china_pie_graph', vis2).then(function(result) {
+    }).catch(console.error);
+
+    
+    newDiv.id = "china_pie_graph";
+
+    document.getElementById("hold").innerHTML="";
+    document.getElementById("hold").appendChild(newDiv);
   }
 
   var vis1 = "https://cheahmengyew.github.io/visualization/js/meat_by_region.v1.json";
