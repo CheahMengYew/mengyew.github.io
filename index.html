@@ -35,11 +35,11 @@
 <body>
 
 <h1>Visualization exercise</h1>
-
+  <br>
   <div  align="center">
 	  <button class="btn china" onclick="china()">CHINA</button>
     <button class="btn australia" onclick="australia()">AUSTRALIA</button>
-    <button class="btn india">INDIA</button>
+    <button class="btn india" onclick="india()">INDIA</button>
     <button class="btn japan">JAPAN</button>
   </div>
 
@@ -75,6 +75,20 @@
 
     
     newDiv.id = "china_pie_graph";
+
+    document.getElementById("hold").innerHTML="";
+    document.getElementById("hold").appendChild(newDiv);
+  }
+
+  function india(){
+    var newDiv = document.createElement("DIV");
+    var barGraph = document.createElement("DIV");
+    var vis2 = "https://cheahmengyew.github.io/visualization/js/india_pie_graph.v1.json";
+    vegaEmbed('#india_pie_graph', vis2).then(function(result) {
+    }).catch(console.error);
+
+    
+    newDiv.id = "india_pie_graph";
 
     document.getElementById("hold").innerHTML="";
     document.getElementById("hold").appendChild(newDiv);
