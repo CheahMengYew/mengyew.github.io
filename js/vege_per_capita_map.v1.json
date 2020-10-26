@@ -26,6 +26,7 @@
     "mark": {"type": "geoshape"},
       "encoding": {
       "color": {"field": "Vegetable per capita", "type": "quantitative" ,
+                "title":"Vegetable per capita(kg)",
                "scale": {
                     "type": "threshold",
                     "domain": [50, 100, 150,200,250,300,350],

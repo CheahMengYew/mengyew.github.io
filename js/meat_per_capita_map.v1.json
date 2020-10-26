@@ -26,6 +26,7 @@
     "mark": {"type": "geoshape"},
       "encoding": {
       "color": {"field": "Meat per Capita", "type": "quantitative" ,
+               "title":"Meat per capita(kg)",
                "scale": {
                     "type": "threshold",
                     "domain": [1, 10, 20,30,40,50,60],
