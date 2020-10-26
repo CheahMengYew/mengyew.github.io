@@ -2,11 +2,12 @@
   "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
   "width": 300,
   "height": 300,
+  
 
     "config": {
       "background": "#87c2fd"
   },
-  "title": "Food Security in Australia",
+  "title": "Meat Production in Australia",
   "data": {"url": "https://raw.githubusercontent.com/CheahMengYew/visualization/main/data/Australia(2010-2018).csv"},
   "mark": {"type": "bar"},
   "encoding": {

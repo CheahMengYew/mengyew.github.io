@@ -1,6 +1,6 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
-  "title": "Food Security in China",
+  "title": "Meat Production in China",
     "width": 300,
     "height":300,
         "config": {

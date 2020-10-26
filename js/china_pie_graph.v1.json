@@ -2,7 +2,7 @@
     "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
     "width": 500,
     "height": 400,
-    "title": "Top 3 crop produce from China",
+    "title": "Top 3 crop produce in China",
     "config": {
       "background": "#87c2fd"
   }, 
