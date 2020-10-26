@@ -32,5 +32,6 @@
                     "range": ["#ffffe5" , "#fff7bc", "#fee391", "#fec44f", "#fe9929" , "#ec7014" , "#cc4c02" , "#8c2d04"]
                }
               }
-      }
+      },
+      "view": {"stroke": null} 
   }
