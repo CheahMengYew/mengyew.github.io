@@ -1,35 +1,39 @@
 {
-    "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
-    "width": 500,
-    "height": 400,
-    "title": "Top 3 crop produce in China",
-    "config": {
-      "background": "#87c2fd"
-  }, 
-    "data": {
-      "url" : "https://raw.githubusercontent.com/CheahMengYew/visualization/main/data/China_fruit(2018).csv"
-    },
-    "layer": [{
-      "mark": {"type": "arc", "innerRadius": 20, "stroke": "#fff"}
-    },{
-      "mark": {"type": "text",
-               "radiusOffset": 50},
-      "encoding": {
-        "text": {"field": "Item", "type": "nominal"},
-        "opacity":{
-            "condition": {
-                          "test": "datum['Item'] == 'Vegetables, fresh nes' || datum['Item'] == 'Maize' ||  datum['Item'] == 'Rice, paddy' || datum['Item'] == 'Others '",
-                          "value": 1
-                        },
-                        "value" : 0 
-                  }
-      }
-  
-    }],
+  "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
+  "width": 500,
+  "height": 400,
+  "title": "Top 3 crop produce in China",
+  "config": {
+    "background": "#87c2fd"
+}, 
+  "data": {
+    "url" : "https://raw.githubusercontent.com/CheahMengYew/visualization/main/data/China_fruit(2018).csv"
+  },
+  "layer": [{
+    "mark": {"type": "arc", "innerRadius": 10, "stroke": "#fff"}
+  },{
+    "mark": {"type": "text",
+             "radiusOffset": 22},
     "encoding": {
-      "theta": {"field": "Value", "type": "quantitative","stack": true},
-      "radius": {"field": "Value", "scale": {"type": "sqrt", "zero": true, "rangeMin": 100}},
-      "color": {"field": "Value", "type": "nominal", "legend": null}
-    },
-    "view": {"stroke": null} 
-  }
+      "text": {"field": "Item", "type": "nominal"},
+      "opacity":{
+          "condition": {
+                        "test": "datum['Item'] == 'Vegetables, fresh nes' || datum['Item'] == 'Maize' ||  datum['Item'] == 'Rice, paddy' || datum['Item'] == 'Others '",
+                        "value": 1
+                      },
+                      "value" : 0 
+                }
+    }
+
+  }],
+  "encoding": {
+    "theta": {"field": "Value", "type": "quantitative","stack": true},
+    "radius": {"field": "Value", "scale": {"type": "sqrt", "zero": true, "rangeMin": 100}},
+    "color": {"field": "Item", "type": "nominal", "legend": null,
+    "scale": {
+              "domain": ["Potatoes", "Sugar cane", "Wheat", "Vegetables, fresh nes" , "Rice, paddy" , "Maize" , "Others "],
+              "range": ["#1b9e77", "#d95f02", "#7570b3", "#e7298a" ,"#66a61e" , "#e6ab02" , "#a6761d" ]
+              }}
+  },
+  "view": {"stroke": null} 
+}
