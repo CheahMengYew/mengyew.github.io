@@ -71,6 +71,9 @@
             <strong class = "highlight">486 Million </strong>
             <p>people in Asia remain undernourished</p>
           </td>
+          <td>
+            <div></div>
+          </td>
         </tr>
         <tr>
           <td>
@@ -191,6 +194,10 @@
 
   var vis6 = "https://cheahmengyew.github.io/visualization/js/main_crop_in_asia.v1.json";
   vegaEmbed('#main_crop', vis6).then(function(result) {
+  }).catch(console.error);
+
+  var vis7= "https://cheahmengyew.github.io/visualization/js/meat_production_asia.v1.json";
+  vegaEmbed('#meat_production', vis7).then(function(result) {
   }).catch(console.error);
 </script>
 </body>
