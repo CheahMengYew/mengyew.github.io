@@ -3,7 +3,7 @@
         "title" : "Meat Production In each region",
         "width":200, "height": 300,
               "config": {
-              "background": "#87c2fd"
+              "background": "#6fa0d1"
           },
       "data": { "url": "https://raw.githubusercontent.com/CheahMengYew/visualization/main/data/TonnesOfMeatPerRegion.csv" },
         "transform": [

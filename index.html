@@ -9,11 +9,13 @@
 
   <style>
     .body{
-      background-color:#c0bfbf ;
+      background-color:#87c2fd ;
+      font-family: 'Roboto';
     }
     .highlight{
       color:rgb(161, 0, 0);
-      font-size : 250% ; 
+      font-size : 180% ; 
+      font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     }
     .btn{
         border: none;
@@ -39,20 +41,28 @@
 
       .context {
         position: relative;
-        left : 50px;
+        left : 8px;
+        right : 8px;
         margin:20px;
         background-color: #87c2fd;
+        font-family:sans-serif;
       }
 
       .context .mainpage{
         background-color: "#87c2fd";
+      }
+
+      .inner_vis{
+        position: relative;
+        left: 80px;
+        right: 10px;
       }
      
   </style>
 </head>
 <body class="body">
 
-<h1>Visualization exercise</h1>
+<h1 align="center" style="font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;">Food Security in Asia</h1>
   <br>
   <div  align="center">
 	  <button class="btn china" onclick="china()">CHINA</button>
@@ -73,7 +83,7 @@
             <p><strong class = "highlight">64%</strong> of all malnourished children in the world live in Asia</p>
           </td>
           <td>
-            <div id = "meat_production"></div>
+            <div class = "inner_vis" id = "meat_production"></div>
           </td>
         </tr>
       </table>
@@ -94,6 +104,8 @@
       </table>
   </div>
 
+
+  <p>Written by : Cheah Meng Yew</p>
 
 
 

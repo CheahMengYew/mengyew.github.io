@@ -4,7 +4,7 @@
     "width": 300,
     "height": 300,
     "config": {
-      "background": "#87c2fd"
+      "background": "#6fa0d1"
   },
     "data": {
       "url": "https://raw.githubusercontent.com/CheahMengYew/visualization/main/js/onlyAsia.topojson",
