@@ -2,6 +2,13 @@
     "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
     "width": 500,
     "height": 400,
+    "config": {
+      "axis": {
+        "grid": true,
+        "gridColor": "#be0000",
+        "background": "black"
+      }
+    },  
     "title": "Top 3 fruit produce from Australia",
     "description": "A simple radial chart with embedded data.",
     "data": {
@@ -24,6 +31,7 @@
       }
   
     }],
+    
     "encoding": {
       "theta": {"field": "Value", "type": "quantitative","stack": true},
       "radius": {"field": "Value", "scale": {"type": "sqrt", "zero": true, "rangeMin": 100}},

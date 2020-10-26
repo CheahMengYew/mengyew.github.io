@@ -8,6 +8,10 @@
   <script src="https://cdn.jsdelivr.net/npm/vega-embed@6"></script>
 
   <style>
+    .highlight{
+      color:red;
+      font-size : 200% ; 
+    }
     .btn{
         border: none;
           color : white;
@@ -29,6 +33,12 @@
       .japan{background-color:#d6d6d6}
       
       .japan:hover{background-color:#a6a6a6}
+
+      .context {
+        position: relative;
+        left : 50px;
+        margin:100px
+      }
      
   </style>
 </head>
@@ -40,10 +50,10 @@
 	  <button class="btn china" onclick="china()">CHINA</button>
     <button class="btn australia" onclick="australia()">AUSTRALIA</button>
     <button class="btn india" onclick="india()">INDIA</button>
-    <button class="btn japan">JAPAN</button>
+    <button class="btn japan" onclick="japan()">JAPAN</button>
   </div>
 
-  <div id="hold">
+  <div id="hold" class="context">
       <div id="scatterplot_by_region"></div>
       <div id="bar_graph_australia"></div>
   </div>
@@ -54,16 +64,39 @@
 <script  type="text/javascript">
 
   function australia(){
+    var table = document.createElement("table");
+    var row = document.createElement("tr");
+    var col1 = document.createElement("th");
+    var col2 = document.createElement("th");
+
     var newDiv = document.createElement("DIV");
-    var barGraph = document.createElement("DIV");
+    var text1= document.createElement("p");
+    var text2= document.createElement("p");
+    var textStrong = document.createElement("strong");
+    var t = document.createTextNode("Australia produce ");  
+    var st = document.createTextNode("1,663,557 tonnes ");
+    textStrong.setAttribute("class" , "highlight");
+    var t2 = document.createTextNode("of grapes in 2018");
+    text1.appendChild(t);
+    textStrong.appendChild(st);
+    text2.appendChild(t2);
+
     var vis2 = "https://cheahmengyew.github.io/visualization/js/australia_pie_graph.v1.json";
     vegaEmbed('#pie_graph_australia', vis2).then(function(result) {
     }).catch(console.error);
 
     newDiv.id = "pie_graph_australia";
 
+    col2.appendChild(text1);
+    col2.appendChild(textStrong);
+    col2.appendChild(text2);
+    col1.appendChild(newDiv);
+    row.appendChild(col1);
+    row.appendChild(col2);
+    table.appendChild(row);
+
     document.getElementById("hold").innerHTML="";
-    document.getElementById("hold").appendChild(newDiv);
+    document.getElementById("hold").appendChild(table);
   }
 
   function china(){
@@ -89,6 +122,20 @@
 
     
     newDiv.id = "india_pie_graph";
+
+    document.getElementById("hold").innerHTML="";
+    document.getElementById("hold").appendChild(newDiv);
+  }
+
+  function japan(){
+    var newDiv = document.createElement("DIV");
+    var barGraph = document.createElement("DIV");
+    var vis2 = "https://cheahmengyew.github.io/visualization/js/japan_pie_graph.v1.json";
+    vegaEmbed('#japan_pie_graph', vis2).then(function(result) {
+    }).catch(console.error);
+
+    
+    newDiv.id = "japan_pie_graph";
 
     document.getElementById("hold").innerHTML="";
     document.getElementById("hold").appendChild(newDiv);
