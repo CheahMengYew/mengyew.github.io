@@ -161,15 +161,43 @@
   function china(){
     var newDiv = document.createElement("DIV");
     var barGraph = document.createElement("DIV");
+    var table = document.createElement("table");
+    var row   = document.createElement("tr");
+    var col1  = document.createElement("th");
+    var col2  = document.createElement("th");
+    var col3  = document.createElement("th");
+
+    var text1= document.createElement("p");
+    var text2= document.createElement("p");
+    var textStrong = document.createElement("strong");
+
+    var text_node_1 = document.createTextNode("China produces  ");
+    var text_node_2 = document.createTextNode("214,078,796 tonnes ");
+    var text_node_3 = document.createTextNode("of rice in the year 2018 , it is the largest producer in the world");
+
+    text1.appendChild(text_node_1);
+    text2.appendChild(text_node_3);
+    textStrong.appendChild(text_node_2);
+    textStrong.setAttribute("class" , "highlight");
+
+    col2.appendChild(text1);
+    col2.appendChild(textStrong);
+    col2.appendChild(text2);
+
     var vis2 = "https://cheahmengyew.github.io/visualization/js/china_pie_graph.v1.json";
     vegaEmbed('#china_pie_graph', vis2).then(function(result) {
     }).catch(console.error);
 
     
     newDiv.id = "china_pie_graph";
+    col1.appendChild(newDiv);
+
+    row.appendChild(col1);
+    row.appendChild(col2);
+    table.appendChild(row);
 
     document.getElementById("hold").innerHTML="";
-    document.getElementById("hold").appendChild(newDiv);
+    document.getElementById("hold").appendChild(table);
   }
 
   function india(){

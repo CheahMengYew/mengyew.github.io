@@ -4,8 +4,8 @@
     "height": 400,
     "title": "Top 3 crop produce from India",
     "config": {
-        "background": "#eeecec"
-      },  
+      "background": "#87c2fd"
+  },
     "data": {
       "url" : "https://raw.githubusercontent.com/CheahMengYew/visualization/main/data/India_Crop(2018).csv"
     },
