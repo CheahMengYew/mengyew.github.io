@@ -1,0 +1,33 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
+    "title": "Meat per Capita(2018)",
+    "width": 800,
+    "height": 600,
+    "data": {
+      "url": "https://raw.githubusercontent.com/CheahMengYew/visualization/main/js/onlyAsia.topojson",
+      "format": {"type": "topojson", "feature": "custom"}
+    },
+    "transform": [
+      {
+        "lookup": "properties.admin",
+        "from": {
+          "data": {
+            "url": "https://raw.githubusercontent.com/CheahMengYew/visualization/main/data/meatPerPerson.csv"
+          },
+          "key": "Area",
+          "fields": ["Meat per Capita"]
+        }
+      }
+    ],
+    "projection": {"type": "equalEarth"},
+    "mark": {"type": "geoshape"},
+      "encoding": {
+      "color": {"field": "Meat per Capita", "type": "quantitative" ,
+               "scale": {
+                    "type": "threshold",
+                    "domain": [1, 10, 20,30,40,50,60],
+                    "range": ["#ffffe5" , "#fff7bc", "#fee391", "#fec44f", "#fe9929" , "#ec7014" , "#cc4c02" , "#8c2d04"]
+               }
+              }
+      }
+  }
