@@ -17,7 +17,7 @@
     "mark": {"type": "arc", "innerRadius": 10, "stroke": "#fff"}
   },{
     "mark": {"type": "text",
-             "radiusOffset": 22},
+            "radiusOffset": 22},
     "encoding": {
       "text": {"field": "Item", "type": "nominal"},
       "opacity":{
@@ -34,7 +34,11 @@
   "encoding": {
     "theta": {"field": "Value", "type": "quantitative","stack": true},
     "radius": {"field": "Value", "scale": {"type": "sqrt", "zero": true, "rangeMin": 100}},
-    "color": {"field": "Value", "type": "nominal", "legend": null }
+    "color": {"field": "Item", "type": "nominal", "legend": null 
+              ,"scale": {
+              "domain": ["Melons, other (inc.cantaloupes)", "Apples", "Bananas", "Oranges" , "Grapes" , "Others"],
+              "range": ["#1b9e77", "#d95f02", "#7570b3", "#e7298a" ,"#66a61e" , "#e6ab02" ]
+              }}
   },
   "view": {"stroke": null} 
 }
