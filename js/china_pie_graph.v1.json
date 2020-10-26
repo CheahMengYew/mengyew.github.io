@@ -3,7 +3,9 @@
     "width": 500,
     "height": 400,
     "title": "Top 3 crop produce from China",
-    "description": "A simple radial chart with embedded data.",
+    "config": {
+        "background": "#eeecec"
+      },  
     "data": {
       "url" : "https://raw.githubusercontent.com/CheahMengYew/visualization/main/data/China_fruit(2018).csv"
     },

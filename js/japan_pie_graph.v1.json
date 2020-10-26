@@ -3,7 +3,9 @@
     "width": 500,
     "height": 400,
     "title": "Top 3 crop produce from Japan",
-    "description": "A simple radial chart with embedded data.",
+    "config": {
+        "background": "#eeecec"
+      },  
     "data": {
       "url" : "https://raw.githubusercontent.com/CheahMengYew/visualization/main/data/japan_Crop(2018).csv"
     },
