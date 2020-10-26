@@ -9,8 +9,6 @@
     },
     "background": "#eeecec"
   },  
-  "title": "Top 3 fruit produce from Australia",
-  "description": "A simple radial chart with embedded data.",
   "data": {
     "url" : "https://raw.githubusercontent.com/CheahMengYew/visualization/main/data/Australia_fruits(2018).csv"
   },
