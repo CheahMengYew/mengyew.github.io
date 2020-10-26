@@ -1,0 +1,37 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
+    "title": "Share of Crop In Asia",
+    "width": 200,
+    "height": 300,
+    "config": {
+      "background": "#87c2fd"
+  },
+    "data": {"url": "https://raw.githubusercontent.com/CheahMengYew/visualization/main/data/asia_diet(2018).csv"},
+    "mark": {"type": "bar"},
+    "transform": [{"filter":"datum.Item ==  'Maize' || datum.Item ==  'Wheat' || datum.Item == 'Rice, paddy' || datum.Item == 'Sugar cane'"}],
+    "encoding": {
+          "x": {
+        "timeUnit": "year",
+        "field": "Year",
+        "type": "ordinal",
+        "title": "year"
+      },
+        "y": {
+        "aggregate": "sum",
+        "field" : "Value",
+        "type": "quantitative" , 
+        "title": "Tonnes ",
+        "axis" : null
+      },
+      "color": {
+        "field": "Item",
+        "title" : "Crop",
+        "type": "nominal",
+        "scale": {
+          "domain": ["Maize", "Wheat", "Rice, paddy", "Sugar cane"],
+          "range": ["#fdc086", "#ffff99", "#4daf4a", "#bf5b17" ]
+        }
+      }
+    },
+    "view": {"stroke": null}
+  }

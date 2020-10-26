@@ -76,6 +76,9 @@
           <td>
             <div id="asia_vege_per_capita"></div>
           </td>
+          <td>
+            <div id="main_crop"></div>
+          </td>
         </tr>
       </table>
   </div>
@@ -180,6 +183,10 @@
 
   var vis5 = "https://cheahmengyew.github.io/visualization/js/vege_per_capita_map.v1.json";
   vegaEmbed('#asia_vege_per_capita', vis5).then(function(result) {
+  }).catch(console.error);
+
+  var vis6 = "https://cheahmengyew.github.io/visualization/js/main_crop_in_asia.v1.json";
+  vegaEmbed('#main_crop', vis6).then(function(result) {
   }).catch(console.error);
 </script>
 </body>
