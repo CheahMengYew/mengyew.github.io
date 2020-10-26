@@ -20,8 +20,7 @@
         "aggregate": "sum",
         "field" : "Value",
         "type": "quantitative" , 
-        "title": "Tonnes ",
-        "axis" : null
+        "title": "Tonnes "
       },
       "color": {
         "field": "Item",

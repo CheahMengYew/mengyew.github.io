@@ -30,8 +30,7 @@
             "axis": {"format": "%Y"}
           },
           "y": {
-            "aggregate": "sum", "field": "mean_acc",
-            "axis" : null 
+            "aggregate": "sum", "field": "mean_acc"
           },
           "color": {
             "field": "Area",
