@@ -1,54 +1,50 @@
 {
-    "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
-  "title": "Meat Production Across the year",
-  "width": 300,
-  "height": 200,
-      "config": {
-        "background": "#87c2fd"
-    },
-  "data": { "url": "https://raw.githubusercontent.com/CheahMengYew/visualization/main/data/TonnesOfMeatPerRegion.csv" },
-  "transform": [
-  {
-    "aggregate": [{
-     "op": "sum",
-     "field": "Value",
-     "as": "mean_acc"
-    }],
-    "groupby": ["Area" , "Year"]
-  }
-  ],
-  "selection": {
-          "continent_highlight": {
-          "type": "multi",
-          "fields": ["Area"],
-          "bind": "legend"
-  }
-  },
-  "mark": "line",
-  "encoding": {
-  "x" : {
-          "timeUnit": "year",
-          "field" : "Year" , 
-          "type" : "ordinal" , 
-          "title" : "year" ,
-          "axis": null
-      } ,
-  "y": { 
-          "field": "mean_acc", 
-           "type": "quantitative",
-           "title" : "tonnes of meat produced" },
-  "color":{"field" : "Area" , "type": "nominal",
-                    "scale": {
-            "domain": ["Africa", "Northern America", "South America", "Asia" , "Europe" , "Oceania"],
-            "range": ["#cc0000", "#000066", "#006600", "#990099" , "#ffffff" , "#663300"]
-          }},
-  "opacity": {
-            "condition": {"selection":"continent_highlight", "value": 0.8},
-            "value": 0.1
-    },
-  "tooltip" : [
-          {"field" : "Area" , "type": "nominal"},
-          {"field" : "mean_acc" , "type": "quantitative"}
-      ]
-  }
-  }
+        "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
+        "title" : "Meat Production In each region",
+        "width":150, "height": 200,
+              "config": {
+              "background": "#87c2fd"
+          },
+      "data": { "url": "https://raw.githubusercontent.com/CheahMengYew/visualization/main/data/TonnesOfMeatPerRegion.csv" },
+        "transform": [
+        {
+          "aggregate": [{
+           "op": "sum",
+           "field": "Value",
+           "as": "mean_acc"
+          }],
+          "groupby": ["Area" , "Year"]
+        }
+        ],
+          "selection": {
+                "continent_highlight": {
+                "type": "multi",
+                "fields": ["Area"],
+                "bind": "legend"
+        }
+        },
+        "mark": "area",
+        "encoding": {
+          "x": {
+            "timeUnit": "year", "field": "Year",
+            "axis": {"format": "%Y"}
+          },
+          "y": {
+            "aggregate": "sum", "field": "mean_acc",
+            "axis" : null 
+          },
+          "color": {
+            "field": "Area",
+            "title" : "region",
+            "type": "nominal",
+            "scale": {
+                  "domain": ["Africa", "Northern America", "South America", "Asia" , "Europe" , "Oceania"],
+                  "range": ["#1b9e77", "#d95f02", "#7570b3", "#e7298a" , "#66a61e" , "#e6ab02"]
+            }
+          },
+            "opacity": {
+                  "condition": {"selection":"continent_highlight", "value": 0.8},
+                  "value": 0.1
+          }
+        }
+      }
