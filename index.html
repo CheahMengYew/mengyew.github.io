@@ -198,22 +198,46 @@
   }
 
   function india(){
+    var table = document.createElement("table");
+    var row   = document.createElement("tr");
+    var col1  = document.createElement("td");
+    var col2  = document.createElement("td"); 
+
     var newDiv = document.createElement("DIV");
+    var text1  = document.createElement("p");
+    var text2  = document.createElement("p");
+    var strong = document.createElement("strong");
+
+    var t = document.createTextNode("India Produce ");  
+    var st = document.createTextNode("376,900,000 tonnes ");
+    strong.setAttribute("class" , "highlight");
+    var t2 = document.createTextNode("of sugar cane in 2018 it is the second largest producer of sugar cane.");
+
+    text1.appendChild(t);
+    strong.appendChild(st);
+    text2.appendChild(t2);
+
     var vis2 = "https://cheahmengyew.github.io/visualization/js/india_pie_graph.v1.json";
     vegaEmbed('#india_pie_graph', vis2).then(function(result) {
     }).catch(console.error);
 
     
     newDiv.id = "india_pie_graph";
-    newDiv.align = "center";
+
+    col2.appendChild(text1);
+    col2.appendChild(strong);
+    col2.appendChild(text2);
+    col1.appendChild(newDiv);
+    row.appendChild(col1);
+    row.appendChild(col2);
+    table.appendChild(row);
 
     document.getElementById("hold").innerHTML="";
-    document.getElementById("hold").appendChild(newDiv);
+    document.getElementById("hold").appendChild(table);
   }
 
   function japan(){
     var newDiv = document.createElement("DIV");
-    var barGraph = document.createElement("DIV");
     var vis2 = "https://cheahmengyew.github.io/visualization/js/japan_pie_graph.v1.json";
     vegaEmbed('#japan_pie_graph', vis2).then(function(result) {
     }).catch(console.error);
