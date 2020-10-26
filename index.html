@@ -176,7 +176,7 @@
     var text_node_3 = document.createTextNode("of rice in the year 2018 , it is the largest producer in the world");
 
     text1.appendChild(text_node_1);
-    text2.appendChild(text_node_3);
+    text2.appendChild(text_node_3); 
     textStrong.appendChild(text_node_2);
     textStrong.setAttribute("class" , "highlight");
 
@@ -188,12 +188,18 @@
     vegaEmbed('#china_pie_graph', vis2).then(function(result) {
     }).catch(console.error);
 
+    var vis1 = "https://cheahmengyew.github.io/visualization/js/china_bar_graph.v1.json";
+    vegaEmbed('#china_bar_graph', vis1).then(function(result) {
+    }).catch(console.error);
+
     
     newDiv.id = "china_pie_graph";
+    barGraph.id = "china_bar_graph";
     col1.appendChild(newDiv);
-
+    col3.appendChild(barGraph);
     row.appendChild(col1);
     row.appendChild(col2);
+    row.appendChild(col3);
     table.appendChild(row);
 
     document.getElementById("hold").innerHTML="";
