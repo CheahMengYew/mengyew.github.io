@@ -1,11 +1,11 @@
 {
     "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
-    "title": "Meat per Capita(2018)",
+    "title": "Vegetable per Capita(2018)",
     "width": 300,
     "height": 300,
     "config": {
-      "background": "#87c2fd"
-  },
+        "background": "#87c2fd"
+    },
     "data": {
       "url": "https://raw.githubusercontent.com/CheahMengYew/visualization/main/js/onlyAsia.topojson",
       "format": {"type": "topojson", "feature": "custom"}
@@ -15,21 +15,21 @@
         "lookup": "properties.admin",
         "from": {
           "data": {
-            "url": "https://raw.githubusercontent.com/CheahMengYew/visualization/main/data/meatPerPerson.csv"
+            "url": "https://raw.githubusercontent.com/CheahMengYew/visualization/main/data/vegetable_per_capita(2018).csv"
           },
           "key": "Area",
-          "fields": ["Meat per Capita"]
+          "fields": ["Vegetable per capita"]
         }
       }
     ],
     "projection": {"type": "equalEarth"},
     "mark": {"type": "geoshape"},
       "encoding": {
-      "color": {"field": "Meat per Capita", "type": "quantitative" ,
+      "color": {"field": "Vegetable per capita", "type": "quantitative" ,
                "scale": {
                     "type": "threshold",
-                    "domain": [1, 10, 20,30,40,50,60],
-                    "range": ["#ffffe5" , "#fff7bc", "#fee391", "#fec44f", "#fe9929" , "#ec7014" , "#cc4c02" , "#8c2d04"]
+                    "domain": [50, 100, 150,200,250,300,350],
+                    "range": ["#ffffe5" , "#f7fcb9", "#d9f0a3", "#addd8e", "#78c679" , "#41ab5d" , "#238443" , "#005a32"]
                }
               }
       }

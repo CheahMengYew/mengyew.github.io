@@ -58,8 +58,8 @@
   </div>
 
   <div id="hold" class="context">
-      <div id="scatterplot_by_region"></div>
-      <div id="bar_graph_australia"></div>
+      <div id="asia_meat_per_capita"></div>
+      <div id="asia_vege_per_capita"></div>
   </div>
 
 
@@ -154,6 +154,14 @@
   var vis3 = "https://cheahmengyew.github.io/visualization/js/australia_bar_graph.v1.json";
   vegaEmbed('#bar_graph_australia', vis3).then(function(result) {
     // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+  }).catch(console.error);
+
+  var vis4 = "https://cheahmengyew.github.io/visualization/js/meat_per_capita_map.v1.json";
+  vegaEmbed('#asia_meat_per_capita', vis4).then(function(result) {
+  }).catch(console.error);
+
+  var vis5 = "https://cheahmengyew.github.io/visualization/js/vege_per_capita_map.v1.json";
+  vegaEmbed('#asia_vege_per_capita', vis5).then(function(result) {
   }).catch(console.error);
 </script>
 </body>
