@@ -127,7 +127,6 @@
     var col3 = document.createElement("th");
 
     var newDiv = document.createElement("DIV");
-    var bar    = document.createElement("DIV");
     var text1= document.createElement("p");
     var text2= document.createElement("p");
     var textStrong = document.createElement("strong");
@@ -142,22 +141,14 @@
     vegaEmbed('#pie_graph_australia', vis2).then(function(result) {
     }).catch(console.error);
 
-    var vis1 = "https://cheahmengyew.github.io/visualization/js/australia_bar_graph.v1.json";
-    vegaEmbed('#bar_graph_australia', vis1).then(function(result) {
-    }).catch(console.error);
-
-
     newDiv.id = "pie_graph_australia";
-    bar.id    = "bar_graph_australia";
 
     col2.appendChild(text1);
     col2.appendChild(textStrong);
     col2.appendChild(text2);
     col1.appendChild(newDiv);
-    col3.appendChild(bar);
     row.appendChild(col1);
     row.appendChild(col2);
-    row.appendChild(col3);
     table.appendChild(row);
 
     document.getElementById("hold").innerHTML="";
@@ -166,7 +157,6 @@
 
   function china(){
     var newDiv = document.createElement("DIV");
-    var barGraph = document.createElement("DIV");
     var table = document.createElement("table");
     var row   = document.createElement("tr");
     var col1  = document.createElement("th");
@@ -189,23 +179,18 @@
     col2.appendChild(text1);
     col2.appendChild(textStrong);
     col2.appendChild(text2);
+    col2.setAttribute("style" ,"margin-left: 1px;");
 
     var vis2 = "https://cheahmengyew.github.io/visualization/js/china_pie_graph.v1.json";
     vegaEmbed('#china_pie_graph', vis2).then(function(result) {
     }).catch(console.error);
 
-    var vis1 = "https://cheahmengyew.github.io/visualization/js/china_bar_graph.v1.json";
-    vegaEmbed('#china_bar_graph', vis1).then(function(result) {
-    }).catch(console.error);
 
     
     newDiv.id = "china_pie_graph";
-    barGraph.id = "china_bar_graph";
     col1.appendChild(newDiv);
-    col3.appendChild(barGraph);
     row.appendChild(col1);
     row.appendChild(col2);
-    row.appendChild(col3);
     table.appendChild(row);
 
     document.getElementById("hold").innerHTML="";
