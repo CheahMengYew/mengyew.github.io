@@ -7,7 +7,7 @@
       "grid": true,
       "gridColor": "#be0000"
     },
-    "background": "#eeecec"
+    "background": "#6fa0d1"
   },  
   "data": {
     "url" : "https://raw.githubusercontent.com/CheahMengYew/visualization/main/data/Australia_fruits(2018).csv"
