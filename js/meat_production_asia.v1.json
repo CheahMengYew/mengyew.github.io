@@ -1,0 +1,54 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
+  "title": "Meat Production Across the year",
+  "width": 500,
+  "height": 400,
+      "config": {
+        "background": "#87c2fd"
+    },
+  "data": { "url": "https://raw.githubusercontent.com/CheahMengYew/visualization/main/data/TonnesOfMeatPerRegion.csv" },
+  "transform": [
+  {
+    "aggregate": [{
+     "op": "sum",
+     "field": "Value",
+     "as": "mean_acc"
+    }],
+    "groupby": ["Area" , "Year"]
+  }
+  ],
+  "selection": {
+          "continent_highlight": {
+          "type": "multi",
+          "fields": ["Area"],
+          "bind": "legend"
+  }
+  },
+  "mark": "line",
+  "encoding": {
+  "x" : {
+          "timeUnit": "year",
+          "field" : "Year" , 
+          "type" : "ordinal" , 
+          "title" : "year" ,
+          "axis": null
+      } ,
+  "y": { 
+          "field": "mean_acc", 
+           "type": "quantitative",
+           "title" : "tonnes of meat produced" },
+  "color":{"field" : "Area" , "type": "nominal",
+                    "scale": {
+            "domain": ["Africa", "Northern America", "South America", "Asia" , "Europe" , "Oceania"],
+            "range": ["#cc0000", "#000066", "#006600", "#990099" , "#ffffff" , "#663300"]
+          }},
+  "opacity": {
+            "condition": {"selection":"continent_highlight", "value": 0.8},
+            "value": 0.1
+    },
+  "tooltip" : [
+          {"field" : "Area" , "type": "nominal"},
+          {"field" : "mean_acc" , "type": "quantitative"}
+      ]
+  }
+  }
