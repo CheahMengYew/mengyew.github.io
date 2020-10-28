@@ -1,36 +1,36 @@
 {
-    "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
-    "title": "Share of Crop In Asia",
-    "width": 200,
-    "height": 300,
-    "config": {
-      "background": "#87c2fd", "title" : {"font" : "Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif" , "fontSize" : "50" , "color"  :"aliceblue" } ,"legend": {"labelFont" :"sans-serif"  , "labelColor" : "aliceblue" , "labelFontSize" : "13" , "titleFont" :"sans-serif" , "titleFontSize" : "15" , "titleColor" : "aliceblue" }
-  },
-    "data": {"url": "https://raw.githubusercontent.com/CheahMengYew/visualization/main/data/asia_diet(2018).csv"},
-    "mark": {"type": "bar"},
-    "transform": [{"filter":"datum.Item ==  'Maize' || datum.Item ==  'Wheat' || datum.Item == 'Rice, paddy' || datum.Item == 'Sugar cane'"}],
-    "encoding": {
-          "x": {
-        "timeUnit": "year",
-        "field": "Year",
-        "type": "ordinal",
-        "title": "year"
-      },
-        "y": {
-        "aggregate": "sum",
-        "field" : "Value",
-        "type": "quantitative" , 
-        "title": "Tonnes "
-      },
-      "color": {
-        "field": "Item",
-        "title" : "Crop",
-        "type": "nominal",
-        "scale": {
-          "domain": ["Maize", "Wheat", "Rice, paddy", "Sugar cane"],
-          "range": ["#1b9e77", "#d95f02", "#7570b3", "#e7298a"  ]
-        }
-      }
+  "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
+  "title": "Crop In Asia",
+  "width": 200,
+  "height": 300,
+  "config": {
+    "background": "#87c2fd", "title" : {"font" : "Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif" , "fontSize" : "50" , "color"  :"aliceblue" } ,"legend": {"labelFont" :"sans-serif"  , "labelColor" : "aliceblue" , "labelFontSize" : "13" , "titleFont" :"sans-serif" , "titleFontSize" : "15" , "titleColor" : "aliceblue" }
+},
+  "data": {"url": "https://raw.githubusercontent.com/CheahMengYew/visualization/main/data/asia_diet(2018).csv"},
+  "mark": {"type": "bar"},
+  "transform": [{"filter":"datum.Item ==  'Maize' || datum.Item ==  'Wheat' || datum.Item == 'Rice, paddy' || datum.Item == 'Sugar cane'"}],
+  "encoding": {
+        "x": {
+      "timeUnit": "year",
+      "field": "Year",
+      "type": "ordinal",
+      "title": "year"
     },
-    "view": {"stroke": null}
-  }
+      "y": {
+      "aggregate": "sum",
+      "field" : "Value",
+      "type": "quantitative" , 
+      "title": "Tonnes "
+    },
+    "color": {
+      "field": "Item",
+      "title" : "Crop",
+      "type": "nominal",
+      "scale": {
+        "domain": ["Maize", "Wheat", "Rice, paddy", "Sugar cane"],
+        "range": ["#1b9e77", "#d95f02", "#7570b3", "#e7298a"  ]
+      }
+    }
+  },
+  "view": {"stroke": null}
+}
