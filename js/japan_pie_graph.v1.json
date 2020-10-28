@@ -3,37 +3,57 @@
   "width": 500,
   "height": 400,
   "title": "Top 3 crop produce in Japan",
-  "config": {
-    "background": "#87c2fd"
-},
+  "config": {"background": "#87c2fd"},
   "data": {
-    "url" : "https://raw.githubusercontent.com/CheahMengYew/visualization/main/data/japan_Crop(2018).csv"
+    "url": "https://raw.githubusercontent.com/CheahMengYew/visualization/main/data/japan_Crop(2018).csv"
   },
-  "layer": [{
-    "mark": {"type": "arc", "innerRadius": 10, "stroke": "#fff"}
-  },{
-    "mark": {"type": "text",
-             "radiusOffset": 22},
-    "encoding": {
-      "text": {"field": "Item", "type": "nominal"},
-      "opacity":{
+  "layer": [
+    {"mark": {"type": "arc", "innerRadius": 10, "stroke": "#fff"}},
+    {
+      "mark": {"type": "text", "radiusOffset": 22},
+      "encoding": {
+        "text": {"field": "Item", "type": "nominal"},
+        "opacity": {
           "condition": {
-                        "test": "datum['Item'] == 'Potatoes' ||  datum['Item'] == 'Rice, paddy' || datum['Item'] == 'Others' || datum['Item'] == 'Sugar beet' ",
-                        "value": 1
-                      },
-                      "value" : 0 
-                }
+            "test": "datum['Item'] == 'Potatoes' ||  datum['Item'] == 'Rice, paddy' || datum['Item'] == 'Others' || datum['Item'] == 'Sugar beet' ",
+            "value": 1
+          },
+          "value": 0
+        }
+      }
     }
-
-  }],
+  ],
   "encoding": {
-    "theta": {"field": "Value", "type": "quantitative","stack": true},
-    "radius": {"field": "Value", "scale": {"type": "sqrt", "zero": true, "rangeMin": 100}},
-    "color": {"field": "Item", "type": "nominal", "legend": null
-    ,"scale": {
-              "domain": ["Sugar cane", "Cabbages and other brassicas", "Potatoes", "Sugar beet" , "Rice, paddy" , "Others" , "Vegetables, fresh nes"],
-              "range": ["#1b9e77", "#d95f02", "#7570b3", "#e7298a" ,"#66a61e" , "#e6ab02" , "#a6761d"]
-              }}
+    "theta": {"field": "Value", "type": "quantitative", "stack": true},
+    "radius": {
+      "field": "Value",
+      "scale": {"type": "sqrt", "zero": true, "rangeMin": 100}
+    },
+    "color": {
+      "field": "Item",
+      "type": "nominal",
+      "legend": null,
+      "scale": {
+        "domain": [
+          "Sugar cane",
+          "Cabbages and other brassicas",
+          "Potatoes",
+          "Sugar beet",
+          "Rice, paddy",
+          "Others",
+          "Vegetables, fresh nes"
+        ],
+        "range": [
+          "#8a8a8a",
+          "#8a8a8a",
+          "#fff700",
+          "#ff8400",
+          "#eb3434",
+          "#8a8a8a",
+          "#8a8a8a"
+        ]
+      }
+    }
   },
-  "view": {"stroke": null} 
+  "view": {"stroke": null}
 }
