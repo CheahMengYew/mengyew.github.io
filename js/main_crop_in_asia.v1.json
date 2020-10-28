@@ -4,7 +4,7 @@
     "width": 200,
     "height": 300,
     "config": {
-      "background": "#87c2fd"
+      "background": "#87c2fd", "title" : {"font" : "Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif" , "fontSize" : "50" , "color"  :"aliceblue" } ,"legend": {"labelFont" :"sans-serif"  , "labelColor" : "aliceblue" , "labelFontSize" : "13" , "titleFont" :"sans-serif" , "titleFontSize" : "15" , "titleColor" : "aliceblue" }
   },
     "data": {"url": "https://raw.githubusercontent.com/CheahMengYew/visualization/main/data/asia_diet(2018).csv"},
     "mark": {"type": "bar"},
