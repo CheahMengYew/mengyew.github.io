@@ -5,7 +5,8 @@
   "title": "Top 3 crop produce in Australia",
   "config": {
     "axis": {"grid": true, "gridColor": "#be0000"},
-    "background": "#87c2fd"
+    "background": "#87c2fd", 
+    "title": {"font" : "Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif" , "fontSize" : "30" , "color"  :"#eb3434"}
   },
   "data": {
     "url": "https://raw.githubusercontent.com/CheahMengYew/visualization/main/data/Australia_fruits(2018).csv"
