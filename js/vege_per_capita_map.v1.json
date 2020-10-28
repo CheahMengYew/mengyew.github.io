@@ -3,9 +3,7 @@
     "title": "Vegetable per Capita(2018)",
     "width": 300,
     "height": 300,
-    "config": {
-        "background": "#87c2fd"
-    },
+    "config": {"background": "#75ade6" , "title" : {"font" : "Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif" , "fontSize" : "50" , "color"  :"aliceblue"} ,"legend": {"labelFont" :"Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif"  , "labelColor" : "aliceblue" , "labelFontSize" : "13" , "titleFont" :"sans-serif" , "titleFontSize" : "15" , "titleColor" : "aliceblue" }},
     "data": {
       "url": "https://raw.githubusercontent.com/CheahMengYew/visualization/main/js/onlyAsia.topojson",
       "format": {"type": "topojson", "feature": "custom"}

@@ -10,7 +10,7 @@
   <style>
     .body{
       background-color:#87c2fd ;
-      font-family: 'Roboto';
+      font-family:Arial, Helvetica, sans-serif;
     }
     .center{
       align-self: center;
@@ -48,7 +48,7 @@
         right : 8px;
         margin:20px;
         background-color: #87c2fd;
-        font-family:sans-serif;
+        font-family:Arial, Helvetica, sans-serif;
       }
 
       .context .mainpage{
@@ -57,7 +57,7 @@
 
       .inner_vis{
         position: relative;
-        left: 80px;
+        left: 40px;
         right: 10px;
       }
       .upper{
@@ -85,7 +85,12 @@
           </td>
           <td>
             <p><strong class = "highlight">486 Million </strong>people in Asia remain undernourished</p>
-            <p><strong class = "highlight">64%</strong> of all malnourished children in the world live in Asia</p>
+            <p><strong class = "highlight">3 in 5</strong> of all malnourished children in the world live in Asia</p>
+            <img align="center" height="30px" width="30px" src="user_yes.png"/>
+            <img align="center" height="30px" width="30px" src="user_yes.png"/>
+            <img align="center" height="30px" width="30px" src="user_yes.png"/>
+            <img align="center" height="30px" width="30px" src="user.png"/>
+            <img align="center" height="30px" width="30px" src="user.png"/>
           </td>
           <td>
             <div class = "inner_vis" id = "meat_production"></div>
@@ -158,7 +163,6 @@
     var row   = document.createElement("tr");
     var col1  = document.createElement("th");
     var col2  = document.createElement("th");
-    var col3  = document.createElement("th");
 
     var text1= document.createElement("p");
     var text2= document.createElement("p");
@@ -197,22 +201,28 @@
   function india(){
     var table = document.createElement("table");
     var row   = document.createElement("tr");
-    var col1  = document.createElement("td");
-    var col2  = document.createElement("td"); 
+    var col1  = document.createElement("th");
+    var col2  = document.createElement("th"); 
 
     var newDiv = document.createElement("DIV");
     var text1  = document.createElement("p");
     var text2  = document.createElement("p");
-    var strong = document.createElement("strong");
+    var textStrong = document.createElement("strong");
 
-    var t = document.createTextNode("India Produce ");  
-    var st = document.createTextNode("376,900,000 tonnes ");
-    strong.setAttribute("class" , "highlight");
-    var t2 = document.createTextNode("of sugar cane in 2018 it is the second largest producer of sugar cane.");
+    var text_node_1 = document.createTextNode("India Produce ");
+    var text_node_2 = document.createTextNode("376,900,000 tonnes ");
+    var text_node_3 = document.createTextNode("of sugar cane in 2018 it is the second largest producer of sugar cane.");
 
-    text1.appendChild(t);
-    strong.appendChild(st);
-    text2.appendChild(t2);
+    text1.appendChild(text_node_1);
+    text2.appendChild(text_node_3); 
+    textStrong.appendChild(text_node_2);
+    textStrong.setAttribute("class" , "highlight");
+
+    col2.appendChild(text1);
+    col2.appendChild(textStrong);
+    col2.appendChild(text2);
+    col2.setAttribute("style" ,"margin-left: 1px;");
+
 
     var vis2 = "https://cheahmengyew.github.io/visualization/js/india_pie_graph.v1.json";
     vegaEmbed('#india_pie_graph', vis2).then(function(result) {
@@ -221,9 +231,6 @@
     
     newDiv.id = "india_pie_graph";
 
-    col2.appendChild(text1);
-    col2.appendChild(strong);
-    col2.appendChild(text2);
     col1.appendChild(newDiv);
     row.appendChild(col1);
     row.appendChild(col2);

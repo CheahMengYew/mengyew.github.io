@@ -1,38 +1,47 @@
 {
-    "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
-    "title": "Meat per Capita(2018)",
-    "width": 300,
-    "height": 300,
-    "config": {
-      "background": "#87c2fd"
+  "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
+  "title": "Meat per Capita",
+  "width": 300,
+  "height": 300,
+  "config": {"background": "#75ade6" , "title" : {"font" : "Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif" , "fontSize" : "50" , "color"  :"aliceblue"} ,"legend": {"labelFont" :"Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif"  , "labelColor" : "aliceblue" , "labelFontSize" : "13" , "titleFont" :"sans-serif" , "titleFontSize" : "15" , "titleColor" : "aliceblue" }},
+  "data": {
+    "url": "https://raw.githubusercontent.com/CheahMengYew/visualization/main/js/onlyAsia.topojson",
+    "format": {"type": "topojson", "feature": "custom"}
   },
-    "data": {
-      "url": "https://raw.githubusercontent.com/CheahMengYew/visualization/main/js/onlyAsia.topojson",
-      "format": {"type": "topojson", "feature": "custom"}
-    },
-    "transform": [
-      {
-        "lookup": "properties.admin",
-        "from": {
-          "data": {
-            "url": "https://raw.githubusercontent.com/CheahMengYew/visualization/main/data/meatPerPerson.csv"
-          },
-          "key": "Area",
-          "fields": ["Meat per Capita"]
-        }
+  "transform": [
+    {
+      "lookup": "properties.admin",
+      "from": {
+        "data": {
+          "url": "https://raw.githubusercontent.com/CheahMengYew/visualization/main/data/meatPerPerson.csv"
+        },
+        "key": "Area",
+        "fields": ["Meat per Capita"]
       }
-    ],
-    "projection": {"type": "equalEarth"},
-    "mark": {"type": "geoshape"},
-      "encoding": {
-      "color": {"field": "Meat per Capita", "type": "quantitative" ,
-               "title":"Meat per capita(kg)",
-               "scale": {
-                    "type": "threshold",
-                    "domain": [1, 10, 20,30,40,50,60],
-                    "range": ["#ffffe5" , "#fff7bc", "#fee391", "#fec44f", "#fe9929" , "#ec7014" , "#cc4c02" , "#8c2d04"]
-               }
-              }
-      },
-      "view": {"stroke": null} 
-  }
+    }
+  ],
+  "projection": {"type": "equalEarth"},
+  "mark": {"type": "geoshape"},
+  "encoding": {
+    "color": {
+      "field": "Meat per Capita",
+      "type": "quantitative",
+      "title": "kg",
+      "scale": {
+        "type": "threshold",
+        "domain": [1, 10, 20, 30, 40, 50, 60],
+        "range": [
+          "#ffffe5",
+          "#fff7bc",
+          "#fee391",
+          "#fec44f",
+          "#fe9929",
+          "#ec7014",
+          "#cc4c02",
+          "#8c2d04"
+        ]
+      }
+    }
+  },
+  "view": {"stroke": null}
+}
