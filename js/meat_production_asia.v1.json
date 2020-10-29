@@ -1,50 +1,50 @@
 {
-        "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
-        "title" : "Meat In each region",
-        "width":200, "height": 300,
-        "config": {
-          "background": "#87c2fd", "title" : {"font" : "Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif" , "fontSize" : "40" , "color"  :"aliceblue" } ,"legend": {"labelFont" :"sans-serif"  , "labelColor" : "aliceblue" , "labelFontSize" : "13" , "titleFont" :"sans-serif" , "titleFontSize" : "15" , "titleColor" : "aliceblue" }
-      },
-      "data": { "url": "https://raw.githubusercontent.com/CheahMengYew/visualization/main/data/TonnesOfMeatPerRegion.csv" },
-        "transform": [
-        {
-          "aggregate": [{
-           "op": "sum",
-           "field": "Value",
-           "as": "mean_acc"
-          }],
-          "groupby": ["Area" , "Year"]
-        }
-        ],
-          "selection": {
-                "continent_highlight": {
-                "type": "multi",
-                "fields": ["Area"],
-                "bind": "legend"
-        }
-        },
-        "mark": "area",
-        "encoding": {
-          "x": {
-            "timeUnit": "year", "field": "Year",
-            "axis": {"format": "%Y"}
-          },
-          "y": {
-            "aggregate": "sum", "field": "mean_acc"
-          },
-          "color": {
-            "field": "Area",
-            "title" : "region",
-            "type": "nominal",
-            "scale": {
-                  "domain": ["Africa", "Northern America", "South America", "Asia" , "Europe" , "Oceania"],
-                  "range": ["#1b9e77", "#d95f02", "#7570b3", "#e7298a" , "#66a61e" , "#e6ab02"]
-            }
-          },
-            "opacity": {
-                  "condition": {"selection":"continent_highlight", "value": 0.8},
-                  "value": 0.1
-          }
-        },
-        "view": {"stroke": null}
+  "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
+  "title" : "Meat In each region",
+  "width":200, "height": 300,
+  "config": {
+    "background": "#87c2fd", "title" : {"font" : "Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif" , "fontSize" : "40" , "color"  :"aliceblue" } ,"legend": {"labelFont" :"sans-serif"  , "labelColor" : "aliceblue" , "labelFontSize" : "13" , "titleFont" :"sans-serif" , "titleFontSize" : "15" , "titleColor" : "aliceblue" }
+},
+"data": { "url": "https://raw.githubusercontent.com/CheahMengYew/visualization/main/data/TonnesOfMeatPerRegion.csv" },
+  "transform": [
+  {
+    "aggregate": [{
+     "op": "sum",
+     "field": "Value",
+     "as": "mean_acc"
+    }],
+    "groupby": ["Area" , "Year"]
+  }
+  ],
+    "selection": {
+          "continent_highlight": {
+          "type": "multi",
+          "fields": ["Area"],
+          "bind": "legend"
+  }
+  },
+  "mark": "area",
+  "encoding": {
+    "x": {
+      "timeUnit": "year", "field": "Year",
+      "axis": {"format": "%Y"}
+    },
+    "y": {
+      "aggregate": "sum", "field": "mean_acc" , "title" : "Tonnes"
+    },
+    "color": {
+      "field": "Area",
+      "title" : "region",
+      "type": "nominal",
+      "scale": {
+            "domain": ["Africa", "Northern America", "South America", "Asia" , "Europe" , "Oceania"],
+            "range": ["#1b9e77", "#d95f02", "#7570b3", "#e7298a" , "#66a61e" , "#e6ab02"]
       }
+    },
+      "opacity": {
+            "condition": {"selection":"continent_highlight", "value": 0.8},
+            "value": 0.1
+    }
+  },
+  "view": {"stroke": null}
+}
