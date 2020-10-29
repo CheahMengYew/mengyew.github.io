@@ -4,12 +4,12 @@
   "height": 400,
   "title": "Top 3 crop produce in Australia",
   "config": {
-    "axis": {"grid": true, "gridColor": "#be0000"},
     "background": "#8FBC8F",
     "title": {
       "font": "Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif",
-      "fontSize": "30",
-      "color": "#eb3434"
+      "fontSize": "40",
+      "color": "aliceblue",
+      "align": "center"
     }
   },
   "data": {
