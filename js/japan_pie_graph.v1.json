@@ -3,7 +3,14 @@
   "width": 500,
   "height": 400,
   "title": "Top 3 crop produce in Japan",
-  "config": {"background": "#87c2fd" , "title": {"font" : "Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif" , "fontSize" : "30" , "color"  :"#eb3434"} },
+  "config": {
+    "background": "#8FBC8F",
+    "title": {
+      "font": "Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif",
+      "fontSize": "30",
+      "color": "#eb3434"
+    }
+  },
   "data": {
     "url": "https://raw.githubusercontent.com/CheahMengYew/visualization/main/data/japan_Crop(2018).csv"
   },

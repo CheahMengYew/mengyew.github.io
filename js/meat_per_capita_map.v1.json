@@ -3,7 +3,23 @@
   "title": "Meat per Capita",
   "width": 300,
   "height": 300,
-  "config": {"background": "#87c2fd" , "title" : {"font" : "Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif" , "fontSize" : "40" , "color"  :"aliceblue" , "align": "center"} ,"legend": {"labelFont" :"Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif"  , "labelColor" : "aliceblue" , "labelFontSize" : "13" , "titleFont" :"sans-serif" , "titleFontSize" : "15" , "titleColor" : "aliceblue" }},
+  "config": {
+    "background": "#8FBC8F",
+    "title": {
+      "font": "Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif",
+      "fontSize": "40",
+      "color": "aliceblue",
+      "align": "center"
+    },
+    "legend": {
+      "labelFont": "Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif",
+      "labelColor": "aliceblue",
+      "labelFontSize": "13",
+      "titleFont": "sans-serif",
+      "titleFontSize": "15",
+      "titleColor": "aliceblue"
+    }
+  },
   "data": {
     "url": "https://raw.githubusercontent.com/CheahMengYew/visualization/main/js/onlyAsia.topojson",
     "format": {"type": "topojson", "feature": "custom"}
