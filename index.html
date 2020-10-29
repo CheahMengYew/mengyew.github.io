@@ -143,6 +143,7 @@
 
 
   <p>Written by : Cheah Meng Yew</p>
+   Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a>
 
 
 
@@ -156,25 +157,14 @@
     var col3 = document.createElement("th");
 
     var newDiv = document.createElement("DIV");
-    var text1= document.createElement("p");
-    var text2= document.createElement("p");
-    var textStrong = document.createElement("strong");
-    var t = document.createTextNode("Australia produce ");  
-    var st = document.createTextNode("1,663,557 tonnes ");
-    textStrong.setAttribute("class" , "highlight");
-    var t2 = document.createTextNode("of grapes in 2018");
-    text1.appendChild(t);
-    textStrong.appendChild(st);
-    text2.appendChild(t2);
+
     var vis2 = "https://cheahmengyew.github.io/visualization/js/australia_pie_graph.v1.json";
     vegaEmbed('#pie_graph_australia', vis2).then(function(result) {
     }).catch(console.error);
 
     newDiv.id = "pie_graph_australia";
+    col2.innerHTML = "<table><tr><td><img src='./data/grape.png' height=40> <Strong class='highlight' style='margin-left:10px'>1,663,557 tonnes</strong></td></tr><tr><td><img src='./data/orange.png' height=40> <Strong class='highlight'style=' margin-left:10px'>378,233 tonnes</strong></td></tr><tr><td><img src='./data/banana.png' height=40> <Strong class='highlight' style='margin-left:10px'>373,931 tonnes</strong></td></tr></table>"
 
-    col2.appendChild(text1);
-    col2.appendChild(textStrong);
-    col2.appendChild(text2);
     col1.appendChild(newDiv);
     row.appendChild(col1);
     row.appendChild(col2);
@@ -191,22 +181,8 @@
     var col1  = document.createElement("th");
     var col2  = document.createElement("th");
 
-    var text1= document.createElement("p");
-    var text2= document.createElement("p");
-    var textStrong = document.createElement("strong");
 
-    var text_node_1 = document.createTextNode("China produces  ");
-    var text_node_2 = document.createTextNode("214,078,796 tonnes ");
-    var text_node_3 = document.createTextNode("of rice in the year 2018 , it is the largest producer in the world");
-
-    text1.appendChild(text_node_1);
-    text2.appendChild(text_node_3); 
-    textStrong.appendChild(text_node_2);
-    textStrong.setAttribute("class" , "highlight");
-
-    col2.appendChild(text1);
-    col2.appendChild(textStrong);
-    col2.appendChild(text2);
+    col2.innerHTML = "<table><tr><td><img src='./data/rice-bowl.png' height=40> <Strong class='highlight' style='margin-left:10px'>356,869,353 tonnes</strong></td></tr><tr><td><img src='./data/corn.png' height=40> <Strong class='highlight'style=' margin-left:10px'>257,348,659 tonnes</strong></td></tr><tr><td><img src='./data/broccoli.png' height=40> <Strong class='highlight' style='margin-left:10px'>174,861,648 tonnes</strong></td></tr></table>"
     col2.setAttribute("style" ,"margin-left: 1px;");
 
     var vis2 = "https://cheahmengyew.github.io/visualization/js/china_pie_graph.v1.json";
@@ -231,23 +207,11 @@
     var col1  = document.createElement("th");
     var col2  = document.createElement("th"); 
 
+
     var newDiv = document.createElement("DIV");
-    var text1  = document.createElement("p");
-    var text2  = document.createElement("p");
-    var textStrong = document.createElement("strong");
+  
 
-    var text_node_1 = document.createTextNode("India Produce ");
-    var text_node_2 = document.createTextNode("376,900,000 tonnes ");
-    var text_node_3 = document.createTextNode("of sugar cane in 2018 it is the second largest producer of sugar cane.");
-
-    text1.appendChild(text_node_1);
-    text2.appendChild(text_node_3); 
-    textStrong.appendChild(text_node_2);
-    textStrong.setAttribute("class" , "highlight");
-
-    col2.appendChild(text1);
-    col2.appendChild(textStrong);
-    col2.appendChild(text2);
+    col2.innerHTML = "<table><tr><td><img src='./data/sugar-cane.png' height=40> <Strong class='highlight'>376,900,000 tonnes</strong></td></tr><tr><td><img src='./data/rice-bowl.png' height=40> <Strong class='highlight'>287,690,860 tonnes</strong></td></tr><tr><td><img src='./data/grain.png' height=40> <Strong class='highlight'>99,700,000 tonnes</strong></td></tr></table>"
     col2.setAttribute("style" ,"margin-left: 1px;");
 
 
