@@ -8,8 +8,21 @@
   <script src="https://cdn.jsdelivr.net/npm/vega-embed@6"></script>
 
   <style>
+    .ranknum{
+      font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+      font-size: 220%;
+      background-color: red;
+       color : aliceblue;
+    }
+    .rankheader{
+      font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+      font-size: 220%;
+       color : aliceblue;
+       position: relative;
+       bottom: 97px;
+    }
     .body{
-      background-color:#87c2fd ;
+      background-color:#8FBC8F ;
       font-family:Arial, Helvetica, sans-serif;
     }
     .center{
@@ -47,7 +60,7 @@
         left : 8px;
         right : 8px;
         margin:20px;
-        background-color: #87c2fd;
+        background-color: #8FBC8F;
         font-family:Arial, Helvetica, sans-serif;
       }
 
@@ -108,9 +121,14 @@
             <div id="main_crop"></div>
           </td>
           <td>
-            <strong><strong class = "highlight">RICE </strong>is the staple food in most Asian Countries</strong>
-            <p></p>
-            <strong><strong class = "highlight">3.5 Billion</strong> people depends on rice .</strong>
+                <strong class="rankheader">Top 5 Rice Producing Country</strong>
+                <table class="">
+                  <tr><td class="ranknum">1)</td> <td> China </td> <td>214,078,796 tonnes</td></tr>
+                  <tr><td>2)</td> <td>India </td> <td>2172,580,000 tonnes</td></tr>
+                  <tr><td>3)</td> <td> Indonesia </td> <td>283,037,000 tonnes</td></tr>
+                  <tr><td>4)</td> <td> Bangladesh </td> <td>256,417,319 tonnes</td></tr>
+                  <tr><td>5)</td> <td> Vietnam </td> <td>244,046,250 tonnes</td></tr>
+                </table>
           </td>
         </tr>
       </table>
