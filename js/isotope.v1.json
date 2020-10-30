@@ -7,8 +7,8 @@
         "align": "center"
       },
       "axis": {"labelFont": "monospace" , "labelFontSize": 20}},
-    "width": 600,
-    "height": 200,
+    "width": 200,
+    "height": 300,
     "title": "Livestocks",
     "data": {
       "values": [
