@@ -1,132 +1,137 @@
 {
-    "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
-    "title" : "Chicken Meat",
-      "width": 300,
-    "height": 300,
-    "description": "A ranged dot plot that uses 'layer' to convey changing life expectancy for the five most populous countries (between 1955 and 2000).",
-    "data": {"url": "https://raw.githubusercontent.com/CheahMengYew/visualization/main/data/per-capita-meat-consumption-by-type-kilograms-per-year.csv"},
-      "config": {
-      "view": {"stroke": null},
-      "background": "#8FBC8F",
-      "title": {
-        "font": "Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif",
-        "fontSize": "40",
-        "color": "aliceblue",
-        "align": "center"
-      },
-      "legend": {
-        "labelFont": "Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif",
-        "labelColor": "aliceblue",
-        "labelFontSize": "13",
-        "titleFont": "sans-serif",
-        "titleFontSize": "15",
-        "titleColor": "aliceblue"
-      }
-        },
-    "transform": [
-      {
-        "filter": {
-          "field": "Entity",
-          "oneOf": ["China", "India", "Russia", "Indonesia", "Japan" , "Malaysia" , "Asia" , "Thailand" , "Japan" , "South Korea" , "Vietnam" , "Cambodia" , "Philippines" , "Myanmar"  ,"Bangladesh" ,"Pakistan" , "Yemen" , "Iran"]
-        }
-      },
-      {
-        "calculate": "datum.Entity == 'Malaysia' " , "as": "pos"
-      },
-      {
-        "filter": {
-          "field": "Year",
-          "oneOf": [2000 , 2010]
-        }
-      }
-    ],
-    "encoding": {
-      "x": {
-        "field": "Poultry",
-        "type": "quantitative",
-        "title": "Poultry per person (kg)"
-      },
-      "y": {
+  "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
+  "title": "Chicken Meat",
+  "width": 300,
+  "height": 300,
+  "description": "A ranged dot plot that uses 'layer' to convey changing life expectancy for the five most populous countries (between 1955 and 2000).",
+  "data": {
+    "url": "https://raw.githubusercontent.com/CheahMengYew/visualization/main/data/per-capita-meat-consumption-by-type-kilograms-per-year.csv"
+  },
+  "config": {
+    "view": {"stroke": null},
+    "background": "#8FBC8F",
+    "title": {
+      "font": "Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif",
+      "fontSize": "40",
+      "color": "aliceblue",
+      "align": "center"
+    },
+    "legend": {
+      "labelFont": "Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif",
+      "labelColor": "aliceblue",
+      "labelFontSize": "13",
+      "titleFont": "sans-serif",
+      "titleFontSize": "15",
+      "titleColor": "aliceblue"
+    }
+  },
+  "transform": [
+    {
+      "filter": {
         "field": "Entity",
-        "type": "nominal",
-        "title": "Country",
-        "axis": {
-          "offset": 5,
-          "ticks": false,
-          "minExtent": 70,
-          "domain": false,
-          "labelFont" : "monospace",
-          "labelFontSize" : 12,
-          "title" : "" 
-        }
+        "oneOf": [
+          "China",
+          "India",
+          "Russia",
+          "Indonesia",
+          "Japan",
+          "Malaysia",
+          "Asia",
+          "Thailand",
+          "Japan",
+          "South Korea",
+          "Vietnam",
+          "Cambodia",
+          "Philippines",
+          "Myanmar",
+          "Bangladesh",
+          "Pakistan",
+          "Yemen",
+          "Iran"
+        ]
       }
     },
-    "layer": [
-      {
-        "mark" : "bar",
-        "encoding": {
-          "detail" :{
-            "field" : "Entity" ,
-            "type": "nominal"
-          },
-        "color" :{
-             "condition":[{
-                          "test": "datum['Entity'] == 'Malaysia' ",
-                          "value": "#eb3434"
-                        },{
-                        "test": "datum['Entity'] == 'Iran' ",
-                          "value": "#ff8400"
-                        }
-             ],
-                        "value" : "#fff700"
+    {"calculate": "datum.Entity == 'Malaysia' ", "as": "pos"},
+    {"filter": {"field": "Year", "oneOf": [2000, 2010]}}
+  ],
+  "encoding": {
+    "x": {
+      "field": "Poultry",
+      "type": "quantitative",
+      "title": "Poultry per person (kg)"
+    },
+    "y": {
+      "field": "Entity",
+      "type": "nominal",
+      "title": "Country",
+      "axis": {
+        "offset": 5,
+        "ticks": false,
+        "minExtent": 70,
+        "domain": false,
+        "labelFont": "monospace",
+        "labelFontSize": 12,
+        "title": ""
+      }
+    }
+  },
+  "layer": [
+    {
+      "mark": "bar",
+      "encoding": {
+        "detail": {"field": "Entity", "type": "nominal"},
+        "color": {
+          "condition": [
+            {"test": "datum['Entity'] == 'Malaysia' ", "value": "#eb3434"},
+            {"test": "datum['Entity'] == 'Iran' ", "value": "#ff8400"}
+          ],
+          "value": "#fff700"
         },
-        "opacity" : {
-        "condition": [{
-                          "test": "datum['Entity'] == 'Malaysia' ",
-                          "value": 0.8
-                        },
-                      {
-                        "test": "datum['Entity'] == 'Iran' ",
-                          "value": 0.8
-                      },{
-                        "test": "datum['Entity'] == 'Russia' ",
-                          "value": 0.8
-                      }],
-                      "value" : 0
-  
-                  }
-        }
-      },
-      {
-        "mark": "line",
-        "encoding": {
-          "detail": {
-            "field": "Entity",
-            "type": "nominal"
-          },
-          "color": {"value": "#db646f"}
-        }
-      },
-      {
-        "mark": {
-          "type": "point",
-          "filled": true
+        "opacity": {
+          "condition": [
+            {"test": "datum['Entity'] == 'Malaysia' ", "value": 0.8},
+            {"test": "datum['Entity'] == 'Iran' ", "value": 0.8},
+            {"test": "datum['Entity'] == 'Russia' ", "value": 0.8}
+          ],
+          "value": 0
         },
-        "encoding": {
-          "color": {
-            "field": "Year",
-            "type": "ordinal",
-            "scale": {
-              "domain": [2000 , 2010],
-              "range": ["#e6959c", "#911a24"]
-            },
-            "title": "Year"
-          },
-          "size": {"value": 150},
-          "opacity": {"value": 1}
-        },
-         "view": {"stroke": null}
-         
+                    "tooltip": [
+      {
+        "field": "Entity",
+        "type": "nominal",
+        "title": "Countries"
       }
     ]
-  }
+      }
+    },
+    {
+      "mark": "line",
+      "encoding": {
+        "detail": {"field": "Entity", "type": "nominal"},
+        "color": {"value": "#db646f"}
+      }
+      
+    },
+    {
+      "mark": {"type": "point", "filled": true},
+      "encoding": {
+        "color": {
+          "field": "Year",
+          "type": "ordinal",
+          "scale": {"domain": [2000, 2010], "range": ["#e6959c", "#911a24"]},
+          "title": "Year"
+        },
+        "size": {"value": 150},
+        "opacity": {"value": 1},
+            "tooltip": [
+      {
+        "field": "Entity",
+        "type": "nominal",
+        "title": "Countries"
+      }
+    ]
+      },
+      "view": {"stroke": null}
+    }
+  ]
+}

@@ -38,7 +38,7 @@
   "mark": "area",
   "encoding": {
     "x": {"timeUnit": "year", "field": "Year", "axis": {"format": "%Y"}},
-    "y": {"aggregate": "sum", "field": "mean_acc" , "title" : "" },
+    "y": {"aggregate": "sum", "field": "mean_acc", "title": ""},
     "color": {
       "field": "Area",
       "title": "region",
@@ -65,7 +65,14 @@
     "opacity": {
       "condition": {"selection": "continent_highlight", "value": 0.8},
       "value": 0.1
-    }
+    },
+    "tooltip": [
+      {
+        "field": "mean_acc",
+        "type": "quantitative",
+        "title": "Aggregated Total(Tonnes)"
+      }
+    ]
   },
   "view": {"stroke": null}
 }

@@ -61,7 +61,14 @@
           "#8a8a8a"
         ]
       }
-    }
+    },
+    "tooltip": [
+      {
+        "field": "Value",
+        "type": "quantitative",
+        "title": "Total (Tonnes)"
+      }
+    ]
   },
   "view": {"stroke": null}
 }
