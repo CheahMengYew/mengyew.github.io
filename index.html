@@ -11,10 +11,9 @@
     .vega-bind-name { 
       color: white; 
       font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-      font-size: 100%;
+      font-size: 110%;
       position: relative;
-      margin-left: 290px;
-      margin-bottom: 1000000000px;
+      margin-left: 150px;
       }
     .ranknum{
       font-family: sans-serif;
@@ -252,6 +251,11 @@
   }
 
   function japan(){
+    var table = document.createElement("table");
+    var row   = document.createElement("tr");
+    var col1  = document.createElement("th");
+    var col2  = document.createElement("th");
+    col2.innerHTML = "<table><tr><td><img src='./data/rice-bowl.png' height=40> <Strong class='highlight' style='margin-left:10px'>16,215,743 tonnes</strong></td></tr><tr><td><img src='./data/sugar-beet.png' height=40> <Strong class='highlight'style=' margin-left:10px'>3,611,000 tonnes</strong></td></tr><tr><td><img src='./data/potato.png' height=40> <Strong class='highlight' style='margin-left:10px'>2,261,945 tonnes</strong></td></tr></table>"
     var newDiv = document.createElement("DIV");
     var vis2 = "https://cheahmengyew.github.io/visualization/js/japan_pie_graph.v1.json";
     vegaEmbed('#japan_pie_graph', vis2).then(function(result) {
@@ -259,9 +263,13 @@
 
     
     newDiv.id = "japan_pie_graph";
+    col1.appendChild(newDiv);
+    row.appendChild(col1);
+    row.appendChild(col2);
+    table.appendChild(row);
 
     document.getElementById("hold").innerHTML="";
-    document.getElementById("hold").appendChild(newDiv);
+    document.getElementById("hold").appendChild(table);
   }
 
   var vis1 = "https://cheahmengyew.github.io/visualization/js/meat_by_region.v1.json";
