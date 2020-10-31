@@ -8,7 +8,14 @@
   <script src="https://cdn.jsdelivr.net/npm/vega-embed@6"></script>
 
   <style>
-    .vega-bind-name { color: #FF3300; font: 15px arial, sans-serif; font-weight: bold; }
+    .vega-bind-name { 
+      color: white; 
+      font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+      font-size: 100%;
+      position: relative;
+      margin-left: 290px;
+      margin-bottom: 1000000000px;
+      }
     .ranknum{
       font-family: sans-serif;
       font-size: 100%;
@@ -124,8 +131,9 @@
           <td>
             <div id = "meat_production">
               <label>
-                <span class="vega-bind-name">Livestock</span>
+                <span class="vega-bind-name">Livestock : </span>
                 <input  type="select" name="livestock_Select">
+                <span>0</span>
               </label>
             </div>
           </td>

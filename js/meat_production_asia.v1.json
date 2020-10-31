@@ -18,40 +18,31 @@
       "titleFontSize": "15",
       "titleColor": "aliceblue"
     },
-    "params": [{
-      "name": "livestock_Select"
-    }]
+    "params": [{"name": "livestock_Select"}]
   },
   "data": {
     "url": "https://raw.githubusercontent.com/CheahMengYew/visualization/main/data/TonnesOfMeatPerRegion.csv"
   },
-  "params": [ {
-                "name" : "livestock_Select" ,
-        
-                "bind" : {
-                    "input": "select",
-                    "options" : [
-                        null,
-                        "Meat indigenous, pig",
-                        "Meat indigenous, sheep",
-                        "Meat indigenous, cattle" ,
-                        "Meat indigenous, chicken",
-                        "Meat indigenous, goat"
-                    ],
-                    "labels" : [
-                        "Show All" ,
-                        "pig" , 
-                        "sheep" , 
-                        "cattle" ,
-                        "chicken" , 
-                        "goat" 
-                    ], 
-
-                    "name": "livestock"
-                }
-            }],
+  "params": [
+    {
+      "name": "livestock_Select",
+      "bind": {
+        "input": "select",
+        "options": [
+          null,
+          "Meat indigenous, pig",
+          "Meat indigenous, sheep",
+          "Meat indigenous, cattle",
+          "Meat indigenous, chicken",
+          "Meat indigenous, goat"
+        ],
+        "labels": ["Show All", "pig", "sheep", "cattle", "chicken", "goat"],
+        "name": "Livestock : "
+      }
+    }
+  ],
   "transform": [
-   {"filter" : "livestock_Select == null  || datum.Item == livestock_Select"},
+    {"filter": "livestock_Select == null  || datum.Item == livestock_Select"},
     {
       "aggregate": [{"op": "sum", "field": "Value", "as": "mean_acc"}],
       "groupby": ["Area", "Year"]
