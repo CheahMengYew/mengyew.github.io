@@ -76,30 +76,6 @@
   },
   "layer": [
     {
-      "mark": "bar",
-      "encoding": {
-        "detail": {"field": "Entity", "type": "nominal"},
-        "color": {
-          "condition": [
-            {"test": "datum['Entity'] == 'Malaysia' ", "value": "#eb3434"},
-            {"test": "datum['Entity'] == 'Iran' ", "value": "#ff8400"}
-          ],
-          "value": "#fff700"
-        },
-        "opacity": {
-          "condition": [
-            {"test": "datum['Entity'] == 'Malaysia' ", "value": 0.8},
-            {"test": "datum['Entity'] == 'Iran' ", "value": 0.8},
-            {"test": "datum['Entity'] == 'Russia' ", "value": 0.8}
-          ],
-          "value": 0
-        },
-        "tooltip": [
-          {"field": "Entity", "type": "nominal", "title": "Countries"}
-        ]
-      }
-    },
-    {
       "mark": "line",
       "encoding": {
         "detail": {"field": "Entity", "type": "nominal"},
