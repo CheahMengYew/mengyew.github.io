@@ -8,12 +8,17 @@
   <script src="https://cdn.jsdelivr.net/npm/vega-embed@6"></script>
 
   <style>
+      .legend {
+      font: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ; 
+      color: "aliceblue";
+      font-size: 100%;
+    }
     .vega-bind-name { 
       color: white; 
       font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
       font-size: 110%;
       position: relative;
-      margin-left: 150px;
+      margin-left: 120px;
       }
     .ranknum{
       font-family: sans-serif;
@@ -128,12 +133,15 @@
           <td>
             <strong class="rankheader" style="margin-left: 90px;">Livestocks</strong>
             <div id="isotope"></div>
+            <label>
+              <span  class="legend">🐄 13 mill 🐔 1.7 bil 🐏17 mill</span>
+            </label>
           </td>
           <td>
             <strong class="rankheader">Meat in Each Region</strong>
             <div id = "meat_production">
               <label>
-                <span class="vega-bind-name" >Livestock : </span>
+                <span class="vega-bind-name">Livestock : </span>
                 <input  type="select" name="livestock_Select">
                 <span>0</span>
               </label>
@@ -141,6 +149,8 @@
           </td>
         </tr>
       </table>
+      <br></br>
+      <br></br>
       <table>
         <tr>
           <td>
