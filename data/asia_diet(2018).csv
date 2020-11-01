@@ -1,746 +1,596 @@
 ﻿Item,Year,Value
-Peppermint,2015,30
-Peppermint,2016,31
-Peppermint,2017,31
-Peppermint,2018,31
-Peppermint,2014,36
-"Grain, mixed",2018,78
-Gooseberries,2015,100
-Gooseberries,2016,105
-Gooseberries,2014,120
-Gooseberries,2018,120
-Gooseberries,2017,124
-Lupins,2018,124
-Lupins,2017,129
-Lupins,2016,137
-Lupins,2014,138
-Lupins,2015,147
-Blueberries,2014,600
-"Grain, mixed",2017,622
-Blueberries,2018,662
-Blueberries,2017,663
-Blueberries,2016,693
-Blueberries,2015,700
-"Grain, mixed",2016,759
-"Grain, mixed",2015,830
-"Grain, mixed",2014,831
-Vanilla,2014,2572
-Vanilla,2015,2866
-Vanilla,2016,2984
-Vanilla,2018,3031
-Vanilla,2017,3138
-Currants,2014,3730
-Agave fibres nes,2017,3965
+Agave fibres nes,1990,3191
+Agave fibres nes,2000,4006
+Agave fibres nes,2010,3982
 Agave fibres nes,2018,3966
-Agave fibres nes,2016,3984
-Agave fibres nes,2015,3987
-Agave fibres nes,2014,4000
-Currants,2017,4118
-Currants,2016,4147
-Currants,2018,4174
-Currants,2015,4410
-Chicory roots,2015,7691
-Chicory roots,2016,7764
-Chicory roots,2014,7818
-Chicory roots,2017,7881
-Chicory roots,2018,7962
-Hops,2014,10687
-Hops,2018,11121
-Hops,2017,11163
-Hops,2016,11206
-Hops,2015,11266
-Hempseed,2018,12023
-Hempseed,2017,12056
-Hempseed,2016,12088
-Flax fibre and tow,2017,12268
-Flax fibre and tow,2015,12713
-Sisal,2018,13358
-Hempseed,2015,13367
-Flax fibre and tow,2018,13419
-Sisal,2017,13707
-Cranberries,2014,13782
-Cranberries,2015,13846
-Sisal,2014,13878
-Sisal,2016,14052
-Sisal,2015,14092
-Cranberries,2016,14104
-Raspberries,2015,14333
-Cranberries,2017,14336
-Cranberries,2018,14355
-Raspberries,2016,14390
-Raspberries,2014,14700
-Raspberries,2018,14825
-Raspberries,2017,14856
-Flax fibre and tow,2016,15277
-Hempseed,2014,15830
-Poppy seed,2017,16646
-Poppy seed,2014,17855
-Poppy seed,2016,19639
-Carobs,2016,22142
-Carobs,2015,22591
-Carobs,2017,24808
-Carobs,2018,25236
-Carobs,2014,27476
-Hemp tow waste,2018,27538
-Hemp tow waste,2017,28172
-Poppy seed,2018,28362
-Hemp tow waste,2016,29825
-Hemp tow waste,2015,30147
-Poppy seed,2015,32271
-Canary seed,2014,34829
-Canary seed,2015,35310
-Canary seed,2016,36046
-Canary seed,2017,37322
-Canary seed,2018,37407
-Hemp tow waste,2014,46272
-Flax fibre and tow,2014,47309
-Melonseed,2014,49370
-"Fruit, pome nes",2014,50000
-Melonseed,2015,53926
-"Fruit, pome nes",2015,54500
-"Fruit, pome nes",2018,58313
-"Fruit, pome nes",2017,58500
-"Fruit, pome nes",2016,58714
-Vetches,2017,60512
-Melonseed,2017,62020
-Melonseed,2018,62713
-Melonseed,2016,62933
-"Nutmeg, mace and cardamoms",2014,63364
-"Nutmeg, mace and cardamoms",2015,67200
-Manila fibre (abaca),2018,67516
-Manila fibre (abaca),2017,67678
-"Nutmeg, mace and cardamoms",2018,68119
-Manila fibre (abaca),2016,68268
-Manila fibre (abaca),2014,68598
-Manila fibre (abaca),2015,69229
-Vetches,2018,80027
-"Nutmeg, mace and cardamoms",2016,84209
-Vetches,2016,88571
-"Nutmeg, mace and cardamoms",2017,91300
-Vetches,2014,92867
-Vetches,2015,93537
-Fibre crops nes,2014,98602
-Fibre crops nes,2016,99055
-Fibre crops nes,2015,99516
-Fibre crops nes,2017,99701
-Fibre crops nes,2018,100350
-Ramie,2017,102582
-Ramie,2016,106469
-Ramie,2018,106753
-Ramie,2015,110989
-"Bastfibres, other",2017,116104
-Ramie,2014,118495
-Cloves,2014,129268
-"Bastfibres, other",2018,129484
-Cloves,2018,130442
-"Bastfibres, other",2016,131622
-Cloves,2017,132650
-"Cow peas, dry",2016,138181
-"Bastfibres, other",2015,141949
-"Bastfibres, other",2014,145283
-"Cow peas, dry",2015,146071
-Artichokes,2014,146102
-"Cow peas, dry",2014,146684
-Cloves,2015,147133
-Cloves,2016,149443
-Artichokes,2015,150363
-Artichokes,2016,157328
-Yams,2016,159866
-Artichokes,2017,162556
-"Cow peas, dry",2018,164456
-Artichokes,2018,165731
-Yams,2017,173676
-Yams,2015,176998
-Yams,2018,178666
-Yams,2014,180045
-"Cow peas, dry",2017,203657
-Cinnamon (cannella),2014,209852
-Cinnamon (cannella),2015,215696
-Cinnamon (cannella),2018,218469
-Cinnamon (cannella),2017,219653
-Cinnamon (cannella),2016,221663
-Mustard seed,2015,234237
-Mustard seed,2014,236697
-Mustard seed,2017,237071
-Mustard seed,2016,246744
-String beans,2015,269568
-Kapok fruit,2018,274283
-String beans,2018,276971
-Kapok fruit,2017,277792
-Kapok fruit,2016,282568
-String beans,2016,286102
-String beans,2017,286426
-Kapok fruit,2015,290300
-Mustard seed,2018,294835
-Kapok fruit,2014,298787
-String beans,2014,318639
-"Cherries, sour",2014,344873
-Tung nuts,2018,348000
-Nuts nes,2016,358269
-"Cherries, sour",2015,360018
-Safflower seed,2016,360991
-Nuts nes,2014,363542
-Safflower seed,2018,364101
-Nuts nes,2017,366182
-Nuts nes,2018,366828
-Nuts nes,2015,366839
-Tung nuts,2017,370083
-Safflower seed,2014,379544
-Berries nes,2014,379879
-Berries nes,2015,381787
-Berries nes,2016,382866
-Pepper (piper spp.),2014,385246
-"Vegetables, leguminous nes",2016,389585
-"Cherries, sour",2016,389738
-Safflower seed,2015,390797
-"Cherries, sour",2017,392658
-"Cherries, sour",2018,394369
-Berries nes,2017,398357
-Berries nes,2018,398685
-Tung nuts,2016,408518
-"Almonds, with shell",2016,411628
-Tung nuts,2015,412042
-"Almonds, with shell",2014,413275
-Tung nuts,2014,416065
-"Almonds, with shell",2017,416896
-Pepper (piper spp.),2015,422271
-"Vegetables, leguminous nes",2015,426100
-"Vegetables, leguminous nes",2017,431201
-"Vegetables, leguminous nes",2018,434288
-"Almonds, with shell",2015,435318
-Safflower seed,2017,435826
-"Vegetables, leguminous nes",2014,449026
+"Almonds, with shell",1990,206364
+"Almonds, with shell",2000,304705
+"Almonds, with shell",2010,429747
 "Almonds, with shell",2018,453358
-Quinces,2014,456791
-Pepper (piper spp.),2016,460325
-Quinces,2015,460803
-"Fruit, stone nes",2016,462157
-"Fruit, stone nes",2017,469542
-Quinces,2016,471949
-"Fruit, stone nes",2015,476711
-Figs,2017,478584
-"Fruit, stone nes",2018,479194
-Figs,2016,479330
-Figs,2015,490555
-Figs,2018,490808
-"Fruit, stone nes",2014,491207
-Triticale,2014,495259
-Quinces,2018,496068
-Figs,2014,514585
-Pepper (piper spp.),2017,521274
-Quinces,2017,523838
-"Hazelnuts, with shell",2016,533784
-Pepper (piper spp.),2018,540915
-"Hazelnuts, with shell",2014,556794
-Avocados,2014,565772
-Avocados,2016,602586
-"Cocoa, beans",2015,619042
-"Cocoa, beans",2018,623076
-Pistachios,2014,632036
-"Hazelnuts, with shell",2018,634441
-Cereals nes,2014,641032
-Avocados,2015,647978
-Buckwheat,2014,659221
-Avocados,2017,667254
-Pistachios,2015,682895
-"Cocoa, beans",2016,683854
-"Cocoa, beans",2017,688603
-"Anise, badian, fennel, coriander",2015,741324
-"Cocoa, beans",2014,753615
-Avocados,2018,759310
-"Hazelnuts, with shell",2015,766379
-"Anise, badian, fennel, coriander",2014,779031
-"Hazelnuts, with shell",2017,791899
-Triticale,2016,813648
-"Anise, badian, fennel, coriander",2016,829614
-Pistachios,2017,836448
-Cherries,2014,844277
-"Anise, badian, fennel, coriander",2017,849194
-Pistachios,2016,854884
+"Anise, badian, fennel, coriander",1990,145873
+"Anise, badian, fennel, coriander",2000,263964
+"Anise, badian, fennel, coriander",2010,599180
 "Anise, badian, fennel, coriander",2018,891054
-Pistachios,2018,900606
-Sugar crops nes,2017,934679
-Cherries,2015,938205
-Sugar crops nes,2016,943013
-Triticale,2018,944123
-Sugar crops nes,2018,955262
-Rye,2014,956855
-Sugar crops nes,2015,968567
-Linseed,2014,973019
-Oats,2014,988706
-Sugar crops nes,2014,989435
-Tallowtree seed,2014,992000
-Tallowtree seed,2015,997715
-Tallowtree seed,2016,1026207
-Cherries,2016,1029592
-Tallowtree seed,2017,1037651
-Tallowtree seed,2018,1048526
-Linseed,2015,1066989
-Linseed,2016,1069559
-Cherries,2017,1076902
-Cereals nes,2015,1091780
-Triticale,2015,1096465
-Cherries,2018,1129232
-Triticale,2017,1137000
-Coir,2014,1139525
-Buckwheat,2016,1146239
-Coir,2015,1167500
-Coir,2016,1170626
-Coir,2017,1183908
-Coir,2018,1196576
-"Leeks, other alliaceous vegetables",2017,1208498
-"Maize, green",2014,1216697
-"Maize, green",2015,1217133
-"Leeks, other alliaceous vegetables",2015,1230874
-"Leeks, other alliaceous vegetables",2016,1244780
-Linseed,2017,1249429
-Castor oil seed,2018,1251034
-"Leeks, other alliaceous vegetables",2014,1261086
-Buckwheat,2018,1263863
-Areca nuts,2014,1277188
-"Maize, green",2016,1286652
-"Maize, green",2018,1311374
-"Leeks, other alliaceous vegetables",2018,1314426
-Rye,2016,1344920
-Areca nuts,2016,1397239
-Areca nuts,2017,1414651
-"Maize, green",2017,1428202
-Areca nuts,2018,1428503
-Castor oil seed,2016,1439796
-Areca nuts,2015,1447085
-Rye,2018,1463161
-Linseed,2018,1497625
-Oats,2016,1503418
-Buckwheat,2015,1522011
-"Broad beans, horse beans, dry",2014,1533690
-Roots and tubers nes,2014,1592166
-"Broad beans, horse beans, dry",2015,1596460
-Roots and tubers nes,2015,1601314
-Buckwheat,2017,1619482
-Roots and tubers nes,2016,1625125
-Castor oil seed,2017,1626804
-Roots and tubers nes,2017,1642809
-Oats,2018,1648982
-Roots and tubers nes,2018,1664483
-"Broad beans, horse beans, dry",2016,1719347
-Rye,2015,1752822
-Rye,2017,1766164
-Oats,2015,1797305
-Chestnut,2015,1808670
-Castor oil seed,2015,1818301
-Apricots,2014,1820573
-Pulses nes,2017,1821354
-Chestnut,2014,1843167
-Pulses nes,2018,1850130
-Oats,2017,1856285
-"Broad beans, horse beans, dry",2017,1894285
-"Broad beans, horse beans, dry",2018,1895012
-Pulses nes,2016,1916905
-Castor oil seed,2014,1935591
-Ginger,2014,1992352
-Spices nes,2015,2015846
-Pulses nes,2015,2020895
-Chestnut,2016,2038037
-Pulses nes,2014,2040014
-Lentils,2014,2044450
-Chestnut,2017,2067041
-"Cashew nuts, with shell",2014,2085003
-Chestnut,2018,2112252
-Lentils,2015,2145461
-Ginger,2015,2187018
-Sesame seed,2017,2202391
-"Walnuts, with shell",2016,2209968
-Kiwi fruit,2014,2214968
-Spices nes,2014,2218703
-Lentils,2016,2221538
-"Walnuts, with shell",2014,2224613
-Taro (cocoyam),2015,2245415
-Taro (cocoyam),2014,2247315
-Sesame seed,2016,2247525
-Sesame seed,2018,2257030
-Taro (cocoyam),2016,2268986
-Apricots,2018,2275653
-Ginger,2018,2277047
-Kiwi fruit,2016,2280655
-Taro (cocoyam),2017,2293388
-"Walnuts, with shell",2017,2295628
-"Cashew nuts, with shell",2016,2303349
-Spices nes,2016,2303953
-Taro (cocoyam),2018,2310513
-"Walnuts, with shell",2018,2348105
-Apricots,2015,2351709
-Kiwi fruit,2017,2359251
-"Peas, dry",2016,2368803
-"Peas, dry",2015,2375862
-Kiwi fruit,2018,2400981
-"Onions, shallots, green",2015,2411657
-"Walnuts, with shell",2015,2414770
-"Onions, shallots, green",2016,2417487
-Olives,2018,2450847
-Ginger,2017,2454201
-Sesame seed,2015,2456449
-"Peas, dry",2014,2478859
-"Onions, shallots, green",2017,2520404
-Kiwi fruit,2015,2524695
-"Onions, shallots, green",2018,2535512
-"Cashew nuts, with shell",2015,2542180
-Sesame seed,2014,2583357
-"Onions, shallots, green",2014,2608691
-Apricots,2017,2616154
-Olives,2016,2665614
-Ginger,2016,2672717
-Spices nes,2017,2673366
-"Chillies and peppers, dry",2014,2679005
-"Chillies and peppers, dry",2016,2689358
-Olives,2014,2709467
-Spices nes,2018,2710669
-Olives,2015,2718574
-"Coffee, green",2014,2728231
-Lentils,2017,2733629
-"Peas, dry",2018,2775276
-"Coffee, green",2015,2804024
-"Coffee, green",2016,2838307
-"Chillies and peppers, dry",2015,2848057
-"Peas, dry",2017,2852081
-"Coffee, green",2017,2919237
-Apricots,2016,2946692
-Lentils,2018,2994358
-"Chillies and peppers, dry",2018,3019423
-Oilseeds nes,2014,3053174
-Olives,2017,3065533
-"Coffee, green",2018,3066416
-Pigeon peas,2016,3205409
-Jute,2015,3251617
-Oilseeds nes,2015,3280620
-"Chillies and peppers, dry",2017,3304174
-Jute,2016,3307565
-Oilseeds nes,2016,3314736
-"Cashew nuts, with shell",2017,3318361
-Strawberries,2014,3365605
-Jute,2014,3386190
-Pigeon peas,2015,3430219
-Jute,2017,3523206
-Strawberries,2016,3572607
-Oilseeds nes,2017,3589553
-Jute,2018,3624622
-Oilseeds nes,2018,3628241
-Strawberries,2015,3642514
-Strawberries,2017,3749371
-Pigeon peas,2014,3762998
-Persimmons,2016,3812385
-Persimmons,2015,3820373
-Strawberries,2018,3889105
-Persimmons,2017,3893425
-"Cashew nuts, with shell",2018,3900035
-"Tobacco, unmanufactured",2018,3926218
-Persimmons,2014,3971141
-Dates,2014,3984935
-Persimmons,2018,4008231
-"Tobacco, unmanufactured",2017,4024516
-"Tobacco, unmanufactured",2016,4188875
-Dates,2015,4328716
-"Tobacco, unmanufactured",2015,4369861
-Dates,2016,4592104
-Dates,2017,4636749
-Tea,2014,4670179
-"Tobacco, unmanufactured",2014,4729004
-Dates,2018,4756204
-Plantains and others,2016,4830771
-Plantains and others,2014,4860519
-Plantains and others,2017,4964846
-Tea,2016,4979957
-Pigeon peas,2018,4983699
-Tea,2015,4988709
-Plantains and others,2015,5004427
-Plantains and others,2018,5113644
-Tea,2017,5205200
-Tea,2018,5434370
-Grapefruit (inc. pomelos),2014,5488519
-Pigeon peas,2017,5686583
-Sunflower seed,2014,5894971
-Sunflower seed,2016,5958323
-Sunflower seed,2015,6004533
-Okra,2015,6044124
-Grapefruit (inc. pomelos),2015,6130236
-Okra,2016,6210475
-Sunflower seed,2017,6215205
-Sunflower seed,2018,6223393
-Okra,2017,6383327
-Cereals nes,2018,6401381
-Grapefruit (inc. pomelos),2016,6415252
-Grapefruit (inc. pomelos),2017,6504047
-Okra,2018,6509336
-Papayas,2015,6531354
-Okra,2014,6778120
-Mushrooms and truffles,2014,6781692
-Grapefruit (inc. pomelos),2018,6860971
-Cereals nes,2017,6946078
-Mushrooms and truffles,2017,6956812
-Asparagus,2014,6962295
-Lemons and limes,2014,7013699
-"Fruit, citrus nes",2014,7014386
-Mushrooms and truffles,2018,7031724
-Mushrooms and truffles,2015,7038694
-Lemons and limes,2016,7052944
-Mushrooms and truffles,2016,7087944
-"Fruit, citrus nes",2015,7122831
-Sorghum,2016,7131626
-Lemons and limes,2017,7155003
-Lemons and limes,2015,7195830
-Papayas,2014,7239998
-Papayas,2016,7326696
-Plums and sloes,2014,7523030
-"Fruit, citrus nes",2017,7591009
-Papayas,2017,7619263
-Asparagus,2015,7634364
-"Fruit, citrus nes",2016,7635402
-Papayas,2018,7651737
-Plums and sloes,2015,7690989
-"Fruit, citrus nes",2018,7763290
-Asparagus,2016,7771212
-Plums and sloes,2016,7848048
-Asparagus,2017,7913840
-Sorghum,2018,7973788
-Cereals nes,2016,8029185
-Plums and sloes,2017,8044374
-Asparagus,2018,8058601
-Plums and sloes,2018,8184840
-Sorghum,2017,8247801
-Lemons and limes,2018,8288803
-Chick peas,2016,8767952
-Chick peas,2015,9061095
-Sorghum,2015,9216926
-Sorghum,2014,9497871
-Chick peas,2017,10816837
-Pineapples,2016,10932517
-Pineapples,2014,11031835
-Pineapples,2015,11239200
-Chick peas,2014,11362822
-Pineapples,2018,11672846
-Pineapples,2017,11786666
-"Rubber, natural",2015,11840305
-"Beans, dry",2014,11889352
-"Rubber, natural",2014,11952550
-"Rubber, natural",2016,12010158
-"Beans, dry",2015,12298046
-"Rubber, natural",2017,12574944
-Millet,2016,12792364
-"Rubber, natural",2018,12844441
-Chick peas,2018,13228327
-"Beans, dry",2016,13889135
-Millet,2018,14381318
-"Beans, dry",2018,14605780
-Millet,2017,14682988
-Millet,2015,14685565
-"Beans, dry",2017,14829666
-Millet,2014,14836545
-"Peas, green",2014,14902482
-Peaches and nectarines,2014,15266654
-"Pumpkins, squash and gourds",2014,15714583
-"Pumpkins, squash and gourds",2015,16025612
-"Pumpkins, squash and gourds",2016,16479372
-Peaches and nectarines,2015,16522158
-Lettuce and chicory,2014,16785672
-"Peas, green",2015,16794805
-"Pumpkins, squash and gourds",2017,16903636
-Peaches and nectarines,2016,16997969
-"Pumpkins, squash and gourds",2018,17133483
-"Peas, green",2016,17360008
-Peaches and nectarines,2017,17457143
-Lettuce and chicory,2015,17825278
-Pears,2016,17943540
-"Melons, other (inc.cantaloupes)",2015,18033086
-Peaches and nectarines,2018,18038335
-Pears,2018,18143606
-Lettuce and chicory,2016,18181498
-"Peas, green",2017,18291611
-"Melons, other (inc.cantaloupes)",2014,18364700
-Lettuce and chicory,2017,18483990
-Pears,2017,18510187
-Pears,2015,18721952
-"Peas, green",2018,18780647
-"Melons, other (inc.cantaloupes)",2016,18867258
-Lettuce and chicory,2018,18890955
-Cauliflowers and broccoli,2014,19298574
-"Melons, other (inc.cantaloupes)",2017,19302516
-Cauliflowers and broccoli,2015,19322575
-Cauliflowers and broccoli,2016,19839359
-"Beans, green",2014,19857312
-"Melons, other (inc.cantaloupes)",2018,19959023
-Pears,2014,20233044
-Barley,2014,20234012
-"Fruit, tropical fresh nes",2017,20249574
-"Fruit, tropical fresh nes",2015,20497720
-"Fruit, tropical fresh nes",2016,20539923
-Cauliflowers and broccoli,2017,20572713
-"Fruit, tropical fresh nes",2018,20576803
-"Fruit, tropical fresh nes",2014,20615534
-Rapeseed,2016,20949744
-Barley,2018,20999645
-Barley,2016,21045116
-"Tangerines, mandarins, clementines, satsumas",2014,21088073
-Cauliflowers and broccoli,2018,21107729
-Rapeseed,2015,21122348
-Barley,2017,21167661
-"Beans, green",2015,21310090
-"Tangerines, mandarins, clementines, satsumas",2015,21597317
-"Beans, green",2016,21730584
-"Chillies and peppers, green",2014,21798012
-"Tangerines, mandarins, clementines, satsumas",2016,21965526
-Rapeseed,2017,22249116
-"Beans, green",2017,22328579
-"Tangerines, mandarins, clementines, satsumas",2017,22360543
-Barley,2015,22451545
-"Chillies and peppers, green",2015,22774343
-"Beans, green",2018,22923896
-Garlic,2014,22955573
-Rapeseed,2018,22999430
-Spinach,2014,23096576
-"Fruit, fresh nes",2014,23110272
-"Fruit, fresh nes",2015,23190006
-Soybeans,2015,23209093
-"Chillies and peppers, green",2016,23503775
-Rapeseed,2014,23673615
-"Fruit, fresh nes",2018,23947947
-"Fruit, fresh nes",2016,24004389
-Carrots and turnips,2014,24073684
-"Tangerines, mandarins, clementines, satsumas",2018,24135746
-"Chillies and peppers, green",2017,24388311
-"Fruit, fresh nes",2017,24423847
-Spinach,2017,24437287
-Garlic,2015,24558189
-Spinach,2015,24583039
-Garlic,2016,24628890
-Oranges,2014,24637095
-Spinach,2018,24855243
-"Chillies and peppers, green",2018,24991347
-Oranges,2015,25258233
-Carrots and turnips,2017,25326235
-Garlic,2017,25328257
-Carrots and turnips,2018,25392073
-Soybeans,2014,25418140
-Spinach,2016,25516758
-Grapes,2014,25591289
-Oranges,2016,25797420
-"Groundnuts, with shell",2015,25915270
-Grapes,2016,25957543
-Garlic,2018,26058952
-Soybeans,2017,26455183
-Oranges,2017,26514143
-Grapes,2015,26783639
-Grapes,2017,26905971
-"Groundnuts, with shell",2016,27045143
-Carrots and turnips,2015,27055432
-"Groundnuts, with shell",2014,27098380
-"Groundnuts, with shell",2018,27224995
-Grapes,2018,27373751
-Carrots and turnips,2016,27812422
-Oranges,2018,28342713
-Soybeans,2016,28638032
-"Groundnuts, with shell",2017,29555657
-Soybeans,2018,30608520
-Sugar beet,2015,32135554
-Sugar beet,2014,33928124
-"Mangoes, mangosteens, guavas",2015,34488128
-"Mangoes, mangosteens, guavas",2014,34804753
-"Mangoes, mangosteens, guavas",2016,35510962
-"Mangoes, mangosteens, guavas",2017,37593344
-Sugar beet,2016,39186090
-"Mangoes, mangosteens, guavas",2018,40399823
-Sugar beet,2017,41442887
-Sugar beet,2018,41743674
-Seed cotton,2018,44401506
-Seed cotton,2015,45451477
-Seed cotton,2016,45919490
-Eggplants (aubergines),2014,46879296
-Eggplants (aubergines),2015,47464707
-Eggplants (aubergines),2016,48130409
-Seed cotton,2017,48408189
-Eggplants (aubergines),2017,49217580
-Coconuts,2015,49516141
-Coconuts,2016,50421973
-Eggplants (aubergines),2018,50628849
-Coconuts,2017,50756490
-Coconuts,2014,51266076
-Apples,2015,51810708
-Coconuts,2018,52103802
-Seed cotton,2014,52209589
+Apples,1990,12084015
+Apples,2000,30176354
+Apples,2010,45363357
 Apples,2018,53523593
-Cabbages and other brassicas,2015,53549954
-Cabbages and other brassicas,2016,53636212
-Cabbages and other brassicas,2014,53767080
-Apples,2014,53898128
-Cabbages and other brassicas,2018,54007683
-Apples,2016,54066770
-Cabbages and other brassicas,2017,54073862
-Apples,2017,54707997
-"Onions, dry",2014,58494431
-Sweet potatoes,2017,59150845
-Bananas,2016,59457967
-Sweet potatoes,2016,59605553
-"Onions, dry",2015,59607763
-Bananas,2014,60444873
-Sweet potatoes,2018,60714489
-Bananas,2015,61597646
-Bananas,2017,61833400
-Sweet potatoes,2015,62035852
-"Onions, dry",2016,62647931
+Apricots,1990,769446
+Apricots,2000,1493982
+Apricots,2010,1878791
+Apricots,2018,2275653
+Areca nuts,1990,502689
+Areca nuts,2000,727363
+Areca nuts,2010,1081394
+Areca nuts,2018,1428503
+Artichokes,1990,33438
+Artichokes,2000,83307
+Artichokes,2010,131154
+Artichokes,2018,165731
+Asparagus,1990,1528754
+Asparagus,2000,4025400
+Asparagus,2010,6717324
+Asparagus,2018,8058601
+Avocados,1990,160943
+Avocados,2000,342027
+Avocados,2010,440030
+Avocados,2018,759310
+Bananas,1990,19381110
+Bananas,2000,33024791
+Bananas,2010,60173325
 Bananas,2018,62648176
-Sweet potatoes,2014,63614630
-"Onions, dry",2017,64397201
-"Onions, dry",2018,65319706
-Cucumbers and gherkins,2018,65619556
-Cucumbers and gherkins,2014,66687041
-Cucumbers and gherkins,2015,68465909
-Cucumbers and gherkins,2017,68524409
-Cucumbers and gherkins,2016,70513709
+Barley,1990,20493339
+Barley,2000,17510040
+Barley,2010,19247807
+Barley,2018,20999645
+"Bastfibres, other",1990,787598
+"Bastfibres, other",2000,317080
+"Bastfibres, other",2010,162551
+"Bastfibres, other",2018,129484
+"Beans, dry",1990,8404911
+"Beans, dry",2000,7626479
+"Beans, dry",2010,11513723
+"Beans, dry",2018,14605780
+"Beans, green",1990,4354668
+"Beans, green",2000,8030250
+"Beans, green",2010,17934269
+"Beans, green",2018,22923896
+Berries nes,1990,292337
+Berries nes,2000,295466
+Berries nes,2010,362083
+Berries nes,2018,398685
+Blueberries,2000,500
+Blueberries,2010,800
+Blueberries,2018,662
+"Broad beans, horse beans, dry",1990,2662082
+"Broad beans, horse beans, dry",2000,1899127
+"Broad beans, horse beans, dry",2010,1520350
+"Broad beans, horse beans, dry",2018,1895012
+Buckwheat,1990,1933670
+Buckwheat,2000,2013198
+Buckwheat,2010,571094
+Buckwheat,2018,1263863
+Cabbages and other brassicas,1990,20602221
+Cabbages and other brassicas,2000,57790047
+Cabbages and other brassicas,2010,49773669
+Cabbages and other brassicas,2018,54007683
+Canary seed,1990,1779
+Canary seed,2000,2618
+Canary seed,2010,35156
+Canary seed,2018,37407
+Carobs,1990,24600
+Carobs,2000,26100
+Carobs,2010,27120
+Carobs,2018,25236
+Carrots and turnips,1990,3727844
+Carrots and turnips,2000,9242286
+Carrots and turnips,2010,21599012
+Carrots and turnips,2018,25392073
+"Cashew nuts, with shell",1990,585021
+"Cashew nuts, with shell",2000,1034876
+"Cashew nuts, with shell",2010,2165721
+"Cashew nuts, with shell",2018,3900035
+Cassava,1990,49789984
+Cassava,2000,49458536
+Cassava,2010,74951543
 Cassava,2018,80637819
-Watermelons,2014,81667269
-Cassava,2017,82736903
-Watermelons,2015,83073150
-Watermelons,2016,83806531
-Watermelons,2018,84209180
-Watermelons,2017,84612691
-Cassava,2016,85142517
-Cassava,2015,87669934
-Cassava,2014,89264529
-Tomatoes,2014,101961761
-Tomatoes,2015,103120247
-Tomatoes,2016,107063576
-Tomatoes,2017,111343464
-Tomatoes,2018,111683503
-Potatoes,2014,175368186
-Potatoes,2016,176579254
-Potatoes,2015,177219531
-Potatoes,2017,184691757
-Potatoes,2018,188644711
-Oil palm fruit,2016,215654835
-Oil palm fruit,2018,230420117
-Oil palm fruit,2017,232265025
-"Vegetables, fresh nes",2014,246616092
-Oil palm fruit,2014,247830244
-"Vegetables, fresh nes",2015,250309429
-"Vegetables, fresh nes",2016,253748515
-"Vegetables, fresh nes",2017,255549960
-"Vegetables, fresh nes",2018,257953707
-Oil palm fruit,2015,259376741
-Maize,2014,303666286
-Wheat,2015,320005676
-Wheat,2014,320512769
-Wheat,2018,328220218
-Wheat,2016,328594588
-Wheat,2017,335042252
-Maize,2015,351998862
-Maize,2016,359269281
+Castor oil seed,1990,1081984
+Castor oil seed,2000,1207226
+Castor oil seed,2010,1540116
+Castor oil seed,2018,1251034
+Cauliflowers and broccoli,1990,5924392
+Cauliflowers and broccoli,2000,11423041
+Cauliflowers and broccoli,2010,16489583
+Cauliflowers and broccoli,2018,21107729
+Cereals nes,1990,36120
+Cereals nes,2000,123775
+Cereals nes,2010,416066
+Cereals nes,2018,6401381
+Cherries,1990,311613
+Cherries,2000,640516
+Cherries,2010,895814
+Cherries,2018,1129232
+"Cherries, sour",1990,109260
+"Cherries, sour",2000,170416
+"Cherries, sour",2010,320114
+"Cherries, sour",2018,394369
+Chestnut,1990,328434
+Chestnut,2000,777217
+Chestnut,2010,1807585
+Chestnut,2018,2112252
+Chick peas,1990,6047774
+Chick peas,2000,6793314
+Chick peas,2010,9357389
+Chick peas,2018,13228327
+Chicory roots,1990,1514
+Chicory roots,2000,4991
+Chicory roots,2010,6987
+Chicory roots,2018,7962
+"Chillies and peppers, dry",1990,1201190
+"Chillies and peppers, dry",2000,1836998
+"Chillies and peppers, dry",2010,2221574
+"Chillies and peppers, dry",2018,3019423
+"Chillies and peppers, green",1990,5255494
+"Chillies and peppers, green",2000,12770957
+"Chillies and peppers, green",2010,19942675
+"Chillies and peppers, green",2018,24991347
+Cinnamon (cannella),1990,64989
+Cinnamon (cannella),2000,99495
+Cinnamon (cannella),2010,188165
+Cinnamon (cannella),2018,218469
+Cloves,1990,68998
+Cloves,2000,62085
+Cloves,2010,103366
+Cloves,2018,130442
+"Cocoa, beans",1990,409804
+"Cocoa, beans",2000,509219
+"Cocoa, beans",2010,880834
+"Cocoa, beans",2018,623076
+Coconuts,1990,37101695
+Coconuts,2000,42999513
+Coconuts,2010,50536320
+Coconuts,2018,52103802
+"Coffee, green",1990,863875
+"Coffee, green",2000,1949181
+"Coffee, green",2010,2379412
+"Coffee, green",2018,3066416
+"Cow peas, dry",1990,39817
+"Cow peas, dry",2000,113759
+"Cow peas, dry",2010,228467
+"Cow peas, dry",2018,164456
+Cranberries,1990,25
+Cranberries,2000,13300
+Cranberries,2010,14917
+Cranberries,2018,14355
+Cucumbers and gherkins,1990,12118534
+Cucumbers and gherkins,2000,30532470
+Cucumbers and gherkins,2010,53958177
+Cucumbers and gherkins,2018,65619556
+Currants,1990,
+Currants,2000,1600
+Currants,2010,3611
+Currants,2018,4174
+Dates,1990,2209021
+Dates,2000,4350416
+Dates,2010,4536783
+Dates,2018,4756204
+Eggplants (aubergines),1990,10075766
+Eggplants (aubergines),2000,25518255
+Eggplants (aubergines),2010,41290431
+Eggplants (aubergines),2018,50628849
+Fibre crops nes,1990,72408
+Fibre crops nes,2000,67891
+Fibre crops nes,2010,91853
+Fibre crops nes,2018,100350
+Figs,1990,467855
+Figs,2000,424194
+Figs,2010,441830
+Figs,2018,490808
+Flax fibre and tow,1990,243361
+Flax fibre and tow,2000,214984
+Flax fibre and tow,2010,44945
+Flax fibre and tow,2018,13419
+"Fruit, citrus nes",1990,1124043
+"Fruit, citrus nes",2000,2462971
+"Fruit, citrus nes",2010,6821654
+"Fruit, citrus nes",2018,7763290
+"Fruit, fresh nes",1990,7824224
+"Fruit, fresh nes",2000,14433683
+"Fruit, fresh nes",2010,19487929
+"Fruit, fresh nes",2018,23947947
+"Fruit, pome nes",2000,39500
+"Fruit, pome nes",2010,91000
+"Fruit, pome nes",2018,58313
+"Fruit, stone nes",1990,243961
+"Fruit, stone nes",2000,326847
+"Fruit, stone nes",2010,350479
+"Fruit, stone nes",2018,479194
+"Fruit, tropical fresh nes",1990,10151075
+"Fruit, tropical fresh nes",2000,12702719
+"Fruit, tropical fresh nes",2010,17138955
+"Fruit, tropical fresh nes",2018,20576803
+Garlic,1990,5316074
+Garlic,2000,9245547
+Garlic,2010,20671098
+Garlic,2018,26058952
+Ginger,1990,454902
+Ginger,2000,894767
+Ginger,2010,1461708
+Ginger,2018,2277047
+Gooseberries,2000,50
+Gooseberries,2010,100
+Gooseberries,2018,120
+"Grain, mixed",1990,33000
+"Grain, mixed",2000,10560
+"Grain, mixed",2010,1220
+"Grain, mixed",2018,78
+Grapefruit (inc. pomelos),1990,959526
+Grapefruit (inc. pomelos),2000,1356480
+Grapefruit (inc. pomelos),2010,4526156
+Grapefruit (inc. pomelos),2018,6860971
+Grapes,1990,8766953
+Grapes,2000,14130399
+Grapes,2010,19770201
+Grapes,2018,27373751
+"Groundnuts, with shell",1990,16293331
+"Groundnuts, with shell",2000,23913658
+"Groundnuts, with shell",2010,27630498
+"Groundnuts, with shell",2018,27224995
+"Hazelnuts, with shell",1990,387754
+"Hazelnuts, with shell",2000,520138
+"Hazelnuts, with shell",2010,702261
+"Hazelnuts, with shell",2018,634441
+Hemp tow waste,1990,44725
+Hemp tow waste,2000,31008
+Hemp tow waste,2010,24928
+Hemp tow waste,2018,27538
+Hempseed,1990,25850
+Hempseed,2000,28428
+Hempseed,2010,11612
+Hempseed,2018,12023
+Hops,1990,14452
+Hops,2000,16348
+Hops,2010,12525
+Hops,2018,11121
+Jute,1990,2766286
+Jute,2000,2655459
+Jute,2010,2819354
+Jute,2018,3624622
+Kapok fruit,1990,314450
+Kapok fruit,2000,420380
+Kapok fruit,2010,268927
+Kapok fruit,2018,274283
+Karite nuts (sheanuts),2000,
+Karite nuts (sheanuts),2010,
+Karite nuts (sheanuts),2018,
+Kiwi fruit,1990,76109
+Kiwi fruit,2000,958378
+Kiwi fruit,2010,1497321
+Kiwi fruit,2018,2400981
+"Leeks, other alliaceous vegetables",1990,654972
+"Leeks, other alliaceous vegetables",2000,750603
+"Leeks, other alliaceous vegetables",2010,1142895
+"Leeks, other alliaceous vegetables",2018,1314426
+Lemons and limes,1990,2149575
+Lemons and limes,2000,3365267
+Lemons and limes,2010,6587536
+Lemons and limes,2018,8288803
+Lentils,1990,2076814
+Lentils,2000,2038855
+Lentils,2010,1991422
+Lentils,2018,2994358
+Lettuce and chicory,1990,4293382
+Lettuce and chicory,2000,9550378
+Lettuce and chicory,2010,16228301
+Lettuce and chicory,2018,18890955
+Linseed,1990,943892
+Linseed,2000,608725
+Linseed,2010,617605
+Linseed,2018,1497625
+Lupins,1990,132
+Lupins,2000,1200
+Lupins,2010,119
+Lupins,2018,124
+Maize,1990,132715174
+Maize,2000,149092218
+Maize,2010,253788947
 Maize,2018,361564957
-Maize,2017,362993049
-Sugar cane,2017,695317470
-Sugar cane,2016,711792619
-Sugar cane,2015,726024251
-Sugar cane,2014,745266335
+"Maize, green",1990,957211
+"Maize, green",2000,809272
+"Maize, green",2010,1126476
+"Maize, green",2018,1311374
+"Mangoes, mangosteens, guavas",1990,12833405
+"Mangoes, mangosteens, guavas",2000,18968341
+"Mangoes, mangosteens, guavas",2010,28320963
+"Mangoes, mangosteens, guavas",2018,40399823
+Manila fibre (abaca),1990,59918
+Manila fibre (abaca),2000,77678
+Manila fibre (abaca),2010,67004
+Manila fibre (abaca),2018,67516
+"Melons, other (inc.cantaloupes)",1990,8314068
+"Melons, other (inc.cantaloupes)",2000,13271406
+"Melons, other (inc.cantaloupes)",2010,17949438
+"Melons, other (inc.cantaloupes)",2018,19959023
+Melonseed,1990,38637
+Melonseed,2000,48154
+Melonseed,2010,47167
+Melonseed,2018,62713
+Millet,1990,15794412
+Millet,2000,13097666
+Millet,2010,15998353
+Millet,2018,14381318
+Mushrooms and truffles,1990,797103
+Mushrooms and truffles,2000,2602316
+Mushrooms and truffles,2010,5170628
+Mushrooms and truffles,2018,7031724
+Mustard seed,1990,112020
+Mustard seed,2000,182932
+Mustard seed,2010,264301
+Mustard seed,2018,294835
+"Nutmeg, mace and cardamoms",1990,38024
+"Nutmeg, mace and cardamoms",2000,47398
+"Nutmeg, mace and cardamoms",2010,41324
+"Nutmeg, mace and cardamoms",2018,68119
+Nuts nes,1990,111370
+Nuts nes,2000,205589
+Nuts nes,2010,298660
+Nuts nes,2018,366828
+Oats,1990,1249431
+Oats,2000,1538513
+Oats,2010,897769
+Oats,2018,1648982
+Oil palm fruit,1990,44034564
+Oil palm fruit,2000,97367923
+Oil palm fruit,2010,190503633
+Oil palm fruit,2018,230420117
+Oilseeds nes,1990,982463
+Oilseeds nes,2000,1394261
+Oilseeds nes,2010,2079977
+Oilseeds nes,2018,3628241
+Okra,1990,2616911
+Okra,2000,3769911
+Okra,2010,5268956
+Okra,2018,6509336
+Olives,1990,1771270
+Olives,2000,3268744
+Olives,2010,3033361
+Olives,2018,2450847
+"Onions, dry",1990,15297743
+"Onions, dry",2000,30671420
+"Onions, dry",2010,51635576
+"Onions, dry",2018,65319706
+"Onions, shallots, green",1990,1758477
+"Onions, shallots, green",2000,2190455
+"Onions, shallots, green",2010,2679095
+"Onions, shallots, green",2018,2535512
+Oranges,1990,9269458
+Oranges,2000,11206852
+Oranges,2010,21885590
+Oranges,2018,28342713
+Papayas,1990,1219575
+Papayas,2000,3074760
+Papayas,2010,5635711
+Papayas,2018,7651737
+Peaches and nectarines,1990,2415343
+Peaches and nectarines,2000,5499450
+Peaches and nectarines,2010,12760458
+Peaches and nectarines,2018,18038335
+Pears,1990,4061792
+Pears,2000,10436858
+Pears,2010,17102801
+Pears,2018,18143606
+"Peas, dry",1990,2276785
+"Peas, dry",2000,1993371
+"Peas, dry",2010,1815793
+"Peas, dry",2018,2775276
+"Peas, green",1990,3233219
+"Peas, green",2000,8661202
+"Peas, green",2010,13219927
+"Peas, green",2018,18780647
+Pepper (piper spp.),1990,202059
+Pepper (piper spp.),2000,251497
+Pepper (piper spp.),2010,334074
+Pepper (piper spp.),2018,540915
+Peppermint,1990,1400
+Peppermint,2000,65
+Peppermint,2010,66
+Peppermint,2018,31
+Persimmons,1990,1040183
+Persimmons,2000,2287616
+Persimmons,2010,3446809
+Persimmons,2018,4008231
+Pigeon peas,1990,2800405
+Pigeon peas,2000,3035722
+Pigeon peas,2010,3304474
+Pigeon peas,2018,4983699
+Pineapples,1990,6236155
+Pineapples,2000,7238443
+Pineapples,2010,9545240
+Pineapples,2018,11672846
+Pistachios,1990,214101
+Pistachios,2000,424760
+Pistachios,2010,464338
+Pistachios,2018,900606
+Plantains and others,1990,752956
+Plantains and others,2000,4332945
+Plantains and others,2010,4713762
+Plantains and others,2018,5113644
+Plums and sloes,1990,1669378
+Plums and sloes,2000,4736110
+Plums and sloes,2010,6564144
+Plums and sloes,2018,8184840
+Poppy seed,1990,5153
+Poppy seed,2000,12211
+Poppy seed,2010,37500
+Poppy seed,2018,28362
+Potatoes,1990,64181929
+Potatoes,2000,121491831
+Potatoes,2010,153996509
+Potatoes,2018,188644711
+Pulses nes,1990,1466956
+Pulses nes,2000,1904525
+Pulses nes,2010,1534200
+Pulses nes,2018,1850130
+"Pumpkins, squash and gourds",1990,6666365
+"Pumpkins, squash and gourds",2000,9594427
+"Pumpkins, squash and gourds",2010,14807442
+"Pumpkins, squash and gourds",2018,17133483
+"Pyrethrum, dried",1990,0
+"Pyrethrum, dried",2000,
+"Pyrethrum, dried",2010,
+"Pyrethrum, dried",2018,
+Quinces,1990,125361
+Quinces,2000,287038
+Quinces,2010,371203
+Quinces,2018,496068
+Ramie,1990,95709
+Ramie,2000,162525
+Ramie,2010,191690
+Ramie,2018,106753
+Rapeseed,1990,11544622
+Rapeseed,2000,17724891
+Rapeseed,2010,20443661
+Rapeseed,2018,22999430
+Raspberries,2000,2700
+Raspberries,2010,13300
+Raspberries,2018,14825
+"Rice, paddy",1990,477693369
+"Rice, paddy",2000,545228893
+"Rice, paddy",2010,634551225
+"Rice, paddy",2018,705393401
+Roots and tubers nes,1990,1038346
+Roots and tubers nes,2000,1252843
+Roots and tubers nes,2010,1403191
+Roots and tubers nes,2018,1664483
+"Rubber, natural",1990,4826842
+"Rubber, natural",2000,6493973
+"Rubber, natural",2010,9753237
+"Rubber, natural",2018,12844441
+Rye,1990,1540325
+Rye,2000,1348138
+Rye,2010,1050097
+Rye,2018,1463161
+Safflower seed,1990,486883
+Safflower seed,2000,338155
+Safflower seed,2010,397798
+Safflower seed,2018,364101
+Seed cotton,1990,26785783
+Seed cotton,2000,32963954
+Seed cotton,2010,50199604
+Seed cotton,2018,44401506
+Sesame seed,1990,1794832
+Sesame seed,2000,2004159
+Sesame seed,2010,2619556
+Sesame seed,2018,2257030
+Sisal,1990,30608
+Sisal,2000,37223
+Sisal,2010,16177
+Sisal,2018,13358
+Sorghum,1990,18571513
+Sorghum,2000,11317638
+Sorghum,2010,10383857
+Sorghum,2018,7973788
+Soybeans,1990,16961376
+Soybeans,2000,23157779
+Soybeans,2010,30747178
+Soybeans,2018,30608520
+Spices nes,1990,751299
+Spices nes,2000,1193418
+Spices nes,2010,2015048
+Spices nes,2018,2710669
+Spinach,1990,3298002
+Spinach,2000,8506086
+Spinach,2010,19308739
+Spinach,2018,24855243
+Strawberries,1990,412646
+Strawberries,2000,1763098
+Strawberries,2010,2587650
+Strawberries,2018,3889105
+String beans,1990,258739
+String beans,2000,215602
+String beans,2010,326409
+String beans,2018,276971
+Sugar beet,1990,37154377
+Sugar beet,2000,37681981
+Sugar beet,2010,36515290
+Sugar beet,2018,41743674
+Sugar cane,1990,433541956
+Sugar cane,2000,552498036
+Sugar cane,2010,608543610
 Sugar cane,2018,751902468
-"Rice, paddy",2014,1115627199
-"Rice, paddy",2015,1122415230
-"Rice, paddy",2016,1129683245
-"Rice, paddy",2017,1161838216
-"Rice, paddy",2018,1175890799
+Sugar crops nes,1990,727425
+Sugar crops nes,2000,758000
+Sugar crops nes,2010,900118
+Sugar crops nes,2018,955262
+Sunflower seed,1990,3347013
+Sunflower seed,2000,4055189
+Sunflower seed,2010,5924108
+Sunflower seed,2018,6223393
+Sweet potatoes,1990,113689922
+Sweet potatoes,2000,125678598
+Sweet potatoes,2010,73028904
+Sweet potatoes,2018,60714489
+Tallowtree seed,1990,770000
+Tallowtree seed,2000,820000
+Tallowtree seed,2010,957274
+Tallowtree seed,2018,1048526
+"Tangerines, mandarins, clementines, satsumas",1990,7953636
+"Tangerines, mandarins, clementines, satsumas",2000,11354056
+"Tangerines, mandarins, clementines, satsumas",2010,15651063
+"Tangerines, mandarins, clementines, satsumas",2018,24135746
+Taro (cocoyam),1990,1654141
+Taro (cocoyam),2000,1930700
+Taro (cocoyam),2010,2079541
+Taro (cocoyam),2018,2310513
+Tea,1990,1991339
+Tea,2000,2693299
+Tea,2010,3844900
+Tea,2018,5434370
+"Tobacco, unmanufactured",1990,4304952
+"Tobacco, unmanufactured",2000,4264487
+"Tobacco, unmanufactured",2010,4583858
+"Tobacco, unmanufactured",2018,3926218
+Tomatoes,1990,24686301
+Tomatoes,2000,51421045
+Tomatoes,2010,87131077
+Tomatoes,2018,111683503
+Triticale,1990,10098
+Triticale,2000,365040
+Triticale,2010,443695
+Triticale,2018,944123
+Tung nuts,1990,350770
+Tung nuts,2000,453461
+Tung nuts,2010,433624
+Tung nuts,2018,348000
+Vanilla,1990,1633
+Vanilla,2000,2431
+Vanilla,2010,4136
+Vanilla,2018,3031
+"Vegetables, fresh nes",1990,110201148
+"Vegetables, fresh nes",2000,182812243
+"Vegetables, fresh nes",2010,223306986
+"Vegetables, fresh nes",2018,257953707
+"Vegetables, leguminous nes",1990,369281
+"Vegetables, leguminous nes",2000,297545
+"Vegetables, leguminous nes",2010,468667
+"Vegetables, leguminous nes",2018,434288
+Vetches,1990,213009
+Vetches,2000,174054
+Vetches,2010,137640
+Vetches,2018,80027
+"Walnuts, with shell",1990,362016
+"Walnuts, with shell",2000,657840
+"Walnuts, with shell",2010,1841649
+"Walnuts, with shell",2018,2348105
+Watermelons,1990,21545566
+Watermelons,2000,64134791
+Watermelons,2010,76812366
+Watermelons,2018,84209180
+Wheat,1990,203062098
+Wheat,2000,254662929
+Wheat,2010,288324081
+Wheat,2018,328220218
+Yams,1990,223518
+Yams,2000,226811
+Yams,2010,195292
+Yams,2018,178666
