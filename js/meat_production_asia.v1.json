@@ -1,6 +1,5 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
-  "title": "Meat In each region",
   "width": 200,
   "height": 300,
   "config": {

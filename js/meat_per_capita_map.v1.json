@@ -1,6 +1,5 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
-  "title": "Meat per Capita",
   "width": 300,
   "height": 300,
   "config": {
@@ -57,9 +56,9 @@
           "#8c2d04"
         ]
       }
-    } ,
+    },
     "tooltip": [
-  {"field": "properties.admin", "type": "nominal", "title": "Country"},
+      {"field": "properties.admin", "type": "nominal", "title": "Country"},
       {
         "field": "Meat per Capita",
         "type": "quantitative",

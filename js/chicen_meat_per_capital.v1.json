@@ -1,6 +1,5 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
-  "title": "Chicken Meat",
   "width": 300,
   "height": 300,
   "description": "A ranged dot plot that uses 'layer' to convey changing life expectancy for the five most populous countries (between 1955 and 2000).",
@@ -95,13 +94,9 @@
           ],
           "value": 0
         },
-                    "tooltip": [
-      {
-        "field": "Entity",
-        "type": "nominal",
-        "title": "Countries"
-      }
-    ]
+        "tooltip": [
+          {"field": "Entity", "type": "nominal", "title": "Countries"}
+        ]
       }
     },
     {
@@ -110,7 +105,6 @@
         "detail": {"field": "Entity", "type": "nominal"},
         "color": {"value": "#db646f"}
       }
-      
     },
     {
       "mark": {"type": "point", "filled": true},
@@ -123,13 +117,9 @@
         },
         "size": {"value": 150},
         "opacity": {"value": 1},
-            "tooltip": [
-      {
-        "field": "Entity",
-        "type": "nominal",
-        "title": "Countries"
-      }
-    ]
+        "tooltip": [
+          {"field": "Entity", "type": "nominal", "title": "Countries"}
+        ]
       },
       "view": {"stroke": null}
     }
